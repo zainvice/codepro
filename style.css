@@ -9,7 +9,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to left, 	#07d9e0, #ec3188)
+    background: rgb(88, 10, 177)
 
 }
 nav{
@@ -76,3 +76,65 @@ nav{
     color: white;
     text-decoration: none;
 }
+.wrapper{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.wrapper .static-text{
+
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: -10px;
+
+}
+.wrapper .dynamic-text{
+
+    margin-left: 20px;
+    height: 90px;
+    line-height: 80px;
+    overflow: hidden;
+  
+}
+.dynamic-text li{
+    list-style: none;
+    font-size: 60px;
+    font-weight: 500;
+    color: rgb(255, 172, 62);
+    position: relative;
+    top: 0;
+    animation: slide 3s steps(1) infinite;
+    -webkit-animation: slide 3s steps(1) infinite;
+}
+@keyframes slide {
+    100%{
+        top: -360px;
+    }
+}
+.dynamic-text li span {
+    position: relative;
+
+}
+.dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(88, 10, 177);
+    border-left: 2px solid rgb(255, 172, 62);
+    animation: typing 4s steps(13) infinite;
+    -webkit-animation: typing 4s steps(13) infinite;
+}
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+  }
