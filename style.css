@@ -89,7 +89,7 @@ nav{
 
     font-size: 60px;
     color: aliceblue;
-    margin-top: -10px;
+    margin-top: -5px;
 
 }
 .wrapper .dynamic-text{
@@ -103,16 +103,16 @@ nav{
 .dynamic-text li{
     list-style: none;
     font-size: 60px;
-    font-weight: 500;
+    font-weight: 1000;
     color: rgb(255, 172, 62);
-    position: relative;
+    position:relative;
     top: 0;
-    animation: slide 3s steps(1) infinite;
-    -webkit-animation: slide 3s steps(1) infinite;
+    animation: slide 12s steps(4) infinite;
+    -webkit-animation: slide 12s steps(4) infinite;
 }
 @keyframes slide {
     100%{
-        top: -360px;
+        top: -315px;
     }
 }
 .dynamic-text li span {
