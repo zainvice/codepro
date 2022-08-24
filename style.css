@@ -77,6 +77,10 @@ nav{
     color: white;
     text-decoration: none;
 }
+.status{
+
+    text-align: end;
+}
 .wrapper{
     display: flex;
     margin-top: -150px;
