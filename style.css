@@ -109,8 +109,8 @@ nav{
     color: rgb(255, 172, 62);
     position:relative;
     top: 0;
-    animation: slide 12s steps(4) infinite;
-    -webkit-animation: slide 12s steps(4) infinite;
+    animation: slide 16s steps(4) infinite;
+    -webkit-animation: slide 16s steps(4) infinite;
 }
 @keyframes slide {
     100%{
