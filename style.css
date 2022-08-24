@@ -91,15 +91,17 @@ nav{
 
     font-size: 60px;
     color: aliceblue;
-    margin-top: -5px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .wrapper .dynamic-text{
-
+    
     margin-left: 20px;
-    height: 90px;
+    height: 80px;
     line-height: 80px;
     overflow: hidden;
+    
   
 }
 .dynamic-text li{
