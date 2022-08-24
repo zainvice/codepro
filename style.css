@@ -78,8 +78,9 @@ nav{
     text-decoration: none;
 }
 .status{
-
-    text-align: end;
+ 
+    align-self: flex-end;
+    
 }
 .wrapper{
     display: flex;
@@ -96,7 +97,7 @@ nav{
     font-size: 60px;
     color: aliceblue;
     margin-top: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
 }
 .wrapper .dynamic-text{
