@@ -80,7 +80,14 @@ nav{
 .status{
  
     align-self: flex-end;
+   
     
+}
+.sec{
+    width: 1500px;
+    height: 850px;
+    position: relative;
+
 }
 .wrapper{
     display: flex;

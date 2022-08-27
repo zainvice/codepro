@@ -57,7 +57,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: -200vh;
     background:rgb(88, 10, 177);
 
 }
@@ -121,5 +121,13 @@ body{
         -o-transform: scale(1.4);
         opacity: 0;
 }
+
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:rgb(88, 10, 177);
 
 }
