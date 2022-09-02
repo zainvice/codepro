@@ -34,16 +34,16 @@
                 <!--Buttons-->
                 <!--Images-->
                 <div class="slide first">
-                    <img src="1.png" alt="">
+                    <img src="1.png" alt="" width="800px" height="520px">
                 </div>
                 <div class="slide">
-                    <img src="2.png" alt="">
+                    <img src="2.png" alt="" width="800px" height="520px">
                 </div>
                 <div class="slide">
-                    <img src="3.png" alt="">
+                    <img src="3.png" alt="" width="800px" height="520px">
                 </div>
                 <div class="slide">
-                    <img src="4.png" alt="">
+                    <img src="4.png" alt="" width="800px" height="520px">
                 </div>
                 <!--Images-->
                 <!--Auto nav-->
@@ -65,6 +65,16 @@
             </div>
 
         </div>
+        <script type="text/javascript">
+            var counter = 1 ;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter>4){
+                    counter=1;
+                }
+            }, 5000);
+        </script>
     </section>
   
     <!--Image Slider-->

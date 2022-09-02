@@ -1,13 +1,13 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-}
-body{
     background: rgb(88, 10, 177);
-   
-}
+    height: 100vh;
+
+}  
+
 .main{
     width: 100%;
     height: 100vh;
@@ -40,6 +40,7 @@ nav{
 .nav-links{
     flex: 1;
     text-align: right;
+
 }
 .nav-links ul li{
     list-style: none;
@@ -54,20 +55,19 @@ nav{
 }
 
 .slider{
-    width: 2000px;
-    height: 500px;
+    width: 800px;
+    height: 520px;
     border-radius: 10px;
-    justify-content: center;
-    align-self: center;
+    overflow: hidden;
+    margin-left: 300px;
     
 }
 .slides{
-    justify-content: center;
-    align-self: center;
+  
+    width: 520%;
+    height: 520px;
     display: flex;
-    width: 500%;
-    height: 500px;
-    overflow: hidden;
+    
    
 }
 .slides input{
@@ -76,33 +76,35 @@ nav{
 .slide{
     width: 20%;
     transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
 }
 .slide img{
     width: 800px;
-    height: 500px;
-}   
-/*Manual Nav*/
+    height: 520px;
+}  
 .man-nav{
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: 480px;
     display: flex;
     justify-content: center;
-}
+} 
 .man-btn{
-    border: 2px solid rgb(3, 167, 145);
+    border: 2px solid wheat;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-    
+ 
 }
 .man-btn:not(:last-child){
-
-    margin-left: 40px;
+    margin-right: 40px;
 }
 .man-btn:hover{
-    background: rgb(3, 167, 145);
+    background: wheat;
 }
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -111,8 +113,41 @@ nav{
     margin-left: -20%;
 }
 #radio3:checked ~ .first{
-    margin-left: -40;
+    margin-left: -40%;
 }
 #radio4:checked ~ .first{
-    margin-left: -50;
+    margin-left: -60%;
+}
+/*for auto nav*/
+.auto-nav{
+    position: absolute;
+    width: 800px;
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+} 
+.auto-nav div{
+    border: 2px solid wheat;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.auto-nav div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .auto-nav .auto-btn1{
+    background: wheat;
+}
+#radio2:checked ~ .auto-nav .auto-btn2{
+    background: wheat;
+}
+#radio3:checked ~ .auto-nav .auto-btn3{
+    background: wheat;
+}
+#radio4:checked ~ .auto-nav .auto-btn4{
+    background: wheat;
 }
