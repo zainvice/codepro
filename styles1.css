@@ -32,11 +32,24 @@ nav{
     width: 125px;
     height: 125px;
     align-self: left;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 
 }
 .logo a:hover img{
     width: 130px;
     height: 130px;
+    margin-left: -3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 }
 .nav-links{
     flex: 1;
@@ -78,7 +91,7 @@ body{
 
     background-color:  rgb(88, 10, 177);
   
-    margin-left: 550px;
+    margin-left: 520px;
 
 }
 .footer a{

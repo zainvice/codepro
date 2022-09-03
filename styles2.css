@@ -3,7 +3,7 @@ body{
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: rgb(88, 10, 177);
+    background: linear-gradient(to right, rgb(88, 10, 177), red);
     height: 100vh;
 
 }  
@@ -12,7 +12,7 @@ body{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: rgb(88, 10, 177);
+    background: linear-gradient(to right, rgb(88, 10, 177), red);
 
 }
 nav{
@@ -34,11 +34,24 @@ nav{
     width: 125px;
     height: 125px;
     align-self: left;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 
 }
 .logo a:hover img{
     width: 130px;
     height: 130px;
+    margin-left: -3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 }
 .nav-links{
     flex: 1;
@@ -58,7 +71,8 @@ nav{
 }
 .nav-links ul li a:hover{
     font-size: 22px;
-    text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+    text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
+   
 }
 .name{
     font-size: 27px;
@@ -78,6 +92,7 @@ nav{
     overflow: hidden;
     margin-top: 15px;
     margin-left: 280px;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3);
     
 }
 .slides{
@@ -111,7 +126,7 @@ nav{
     justify-content: center;
 } 
 .man-btn{
-    border: 2px solid wheat;
+    border: 2px solid rgb(255, 166, 0);
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -122,7 +137,7 @@ nav{
     margin-right: 40px;
 }
 .man-btn:hover{
-    background: wheat;
+    background: rgb(255, 166, 0);
 }
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -145,7 +160,7 @@ nav{
     justify-content: center;
 } 
 .auto-nav div{
-    border: 2px solid wheat;
+    border: 2px solid rgb(255, 166, 0);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -158,37 +173,38 @@ nav{
     margin-right: 40px;
 }
 #radio1:checked ~ .auto-nav .auto-btn1{
-    background: wheat;
+    background: rgb(255, 166, 0);
 }
 #radio2:checked ~ .auto-nav .auto-btn2{
-    background: wheat;
+    background: rgb(255, 166, 0);
 }
 #radio3:checked ~ .auto-nav .auto-btn3{
-    background: wheat;
+    background: rgb(255, 166, 0);
 }
 #radio4:checked ~ .auto-nav .auto-btn4{
-    background: wheat;
+    background: rgb(255, 166, 0);
 }
 .footer{
 
-    background-color:  rgb(88, 10, 177);
-  
+    background-color:  transparent;
+    width: 260px;
+    height: 5vh;
     margin-left: 550px;
 
 }
 .footer a{
-    background-color:  rgb(88, 10, 177);
-    color: white;  
+    background-color:  transparent;
+    color: rgb(255, 252, 252);  
     display: flex;     
 }
 .footer a:link{
-    background-color: white;
+    background-color: transparent;
     text-decoration: none;  
     margin-top: 15px;    
     font-size: 15px;
 }
 .footer a:hover{
-    background-color:  rgb(88, 10, 177);
+    background-color:  transparent;
      color: rgb(0, 255, 21);
    
 }

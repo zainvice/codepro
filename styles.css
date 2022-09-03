@@ -33,11 +33,24 @@ nav{
     width: 125px;
     height: 125px;
     align-self: left;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 
 }
 .logo a:hover img{
     width: 130px;
     height: 130px;
+    margin-left: -3px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border-radius: 120px;
+    -webkit-border-radius: 120px;
+    -moz-border-radius: 120px;
+    -ms-border-radius: 120px;
+    -o-border-radius: 120px;
 }
 .nav-links{
     flex: 1;
@@ -66,14 +79,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: -200vh;
+    height: 20vh;
     background:rgb(88, 10, 177);
+    margin-top: -5px;
 
 }
 .pulse{
     background: rgb(3, 182, 3);
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -132,6 +146,19 @@ body{
 }
 
 }
+.status{
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background:rgb(88, 10, 177);
+}
+.status .text{
+    
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: 5px;
+}
 .container2{
     display: flex;
     justify-content: center;
@@ -144,7 +171,7 @@ body{
 
     background-color:  rgb(88, 10, 177);
   
-    margin-left: 550px;
+    margin-left: 520px;
 
 }
 .footer a{
