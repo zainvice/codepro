@@ -40,9 +40,11 @@ nav{
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
+    display: inline-block;
 
 }
 .logo a:hover img{
+
     width: 130px;
     height: 130px;
     margin-left: -3px;
@@ -52,6 +54,7 @@ nav{
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 .nav-links{
     flex: 1;
@@ -72,6 +75,8 @@ nav{
 .nav-links ul li a:hover{
     font-size: 22px;
     text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    margin-top: -2px;
    
 }
 .name{
@@ -84,6 +89,8 @@ nav{
 .name:hover{
     cursor: pointer;
     font-size: 30px;
+    text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 .slider{
     width: 800px;

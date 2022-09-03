@@ -39,17 +39,18 @@ nav{
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
+    display: inline-block;
 }
 .logo a:hover img{
-    width: 130px;
-    height: 130px;
-    margin-left: -3px;
+    width: 126px;
+    height: 126px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     border-radius: 80px;
     -webkit-border-radius: 80px;
     -moz-border-radius: 80px;
     -ms-border-radius: 80px;
     -o-border-radius: 80px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 .nav-links{
     flex: 1;
@@ -65,12 +66,14 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    display: inline-flex;
     
 }
 .nav-links ul li a:hover{
     font-size: 22px;
     text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
-
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    margin-top: -2px;
 }
 .info{
     width: 1000px;
