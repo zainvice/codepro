@@ -57,6 +57,7 @@ nav{
 }
 .nav-links ul li a:hover{
     font-size: 22px;
+    text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
 }
 .info{
     width: 1000px;
