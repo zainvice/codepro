@@ -35,6 +35,10 @@ nav{
     align-self: left;
 
 }
+.logo a:hover img{
+    width: 130px;
+    height: 130px;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -48,7 +52,11 @@ nav{
 .nav-links ul li a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
     
+}
+.nav-links ul li a:hover{
+    font-size: 22px;
 }
 .info{
     width: 1000px;
@@ -163,18 +171,12 @@ nav{
       left: 0;
     }
   }
-  .profile{
-        width: 1080;
-        height: 1080;
-        align-self: center;
 
-
-  }
 .footer{
 
     background-color:  rgb(88, 10, 177);
   
-    margin-left: 600px;
+    margin-left: 550px;
 
 }
 .footer a{
