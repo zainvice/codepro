@@ -250,6 +250,12 @@ nav{
     background-color: transparent;
     color: black; 
 }
+.social .icon .upwork iconify-icon{
+    margin-top: 14px;
+}
+.social .icon:hover .upwork iconify-icon{
+    margin-top: 14px;
+}
 
 .social .icon:hover span iconify-icon{
     font-size: 25px;
