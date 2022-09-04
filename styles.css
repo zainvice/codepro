@@ -87,6 +87,7 @@ body{
     margin-top: -5px;
 
 }
+
 .pulse{
     background: rgb(3, 182, 3);
     height: 100px;
@@ -101,6 +102,11 @@ body{
     align-items: center;
     position: relative;
 }
+.container .pulse:hover img{
+    width: 45px;
+    height: 45px;
+}
+
 .pulse::before{
     content: "";
     position: absolute;
