@@ -90,6 +90,10 @@ body{
     color: aliceblue;
     margin-top: 5px;
 }
+.status .text:hover{
+    font-size: 70px;
+    color: chartreuse;
+}
 .footer{
 
     background-color:  rgb(88, 10, 177);
