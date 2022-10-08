@@ -343,3 +343,206 @@ nav{
 
     background-color: rgb(43, 1, 1);
 }
+@media only screen and (max-width:700px){
+    .logo{
+        flex-basis: 20%;
+    
+    
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+        align-self: left;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border-radius: 95px;
+        -webkit-border-radius: 95px;
+        -moz-border-radius: 95px;
+        -ms-border-radius: 95px;
+        -o-border-radius: 95px;
+}
+    .logo a:hover img{
+        width: 90px;
+        height: 90px;
+        margin-left: -15px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border-radius: 120px;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+        -ms-border-radius: 120px;
+        -o-border-radius: 120px;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 3px;
+    
+    }
+    .nav-links ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .nav-links ul li a:hover{
+        font-size: 22px;
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        margin-top: -2px;
+    } 
+    .wrapper .profile{
+        width: 100px;
+        height: 100px;
+        align-content: center;
+        justify-content: center;
+       
+    }
+    .profile img{
+        margin-left: -100px;
+        margin-top: 0px;
+        width: 250px;
+        height: 250px;
+    }
+    .wrapper .static-text{
+
+        font-size: 20px;
+        color: aliceblue;
+        margin-top: 5px;
+        display: inline;
+    
+    }
+    .wrapper .dynamic-text{
+        
+        margin-left: 20px;
+        height: 80px;
+        line-height: 80px;
+        overflow: hidden;
+        
+      
+    }
+    .dynamic-text li{
+        list-style: none;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(255, 172, 62);
+        position:relative;
+        top: 0;
+        animation: slide 16s steps(4) infinite;
+        -webkit-animation: slide 16s steps(4) infinite;
+    }
+    @keyframes slide {
+        100%{
+            top: -315px;
+        }
+    }
+    .dynamic-text li span {
+        position: relative;
+       
+    }
+    .dynamic-text li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        margin-top: -10px;
+        height: 100%;
+        width: 100%;
+        background: rgb(88, 10, 177);
+        border-left: 2px solid rgb(255, 172, 62);
+        animation: typing 4s steps(13) infinite;
+        -webkit-animation: typing 4s steps(13) infinite;
+    }
+    @keyframes typing {
+        40%, 60%{
+          left: calc(100% + 30px);
+        }
+        100%{
+          left: 0;
+        }
+      }
+      .footer{
+    
+        background-color:  rgb(88, 10, 177);
+      
+        margin-left: 70px;
+    
+    }
+    .footer a{
+        color: white;  
+        display: flex;     
+    }
+    .footer a:link{
+        background-color:  rgb(88, 10, 177);
+        text-decoration: none;  
+        margin-top: 15px;    
+        font-size: 12px;
+    }
+    .footer a:hover{
+        background-color:  rgb(88, 10, 177);
+         color: rgb(0, 255, 21);
+       
+    }
+
+.footer .social{
+
+    display: inline-flex;
+   
+    
+}
+.social .icon{
+    margin :0 5px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon span{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+}
+.social .icon span iconify-icon{
+    font-size: 15px;
+    margin-top: 8px;
+    background-color: transparent;
+    color: black; 
+}
+.social .icon .upwork iconify-icon{
+    margin-top: 10px;
+}
+.social .icon:hover .upwork iconify-icon{
+    margin-top: 10px;
+}
+
+.social .icon:hover span iconify-icon{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+}
+.social .icon span i{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+ 
+}
+}

@@ -300,3 +300,54 @@ nav{
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+@media only screen and (max-width:700px){
+    .logo{
+        flex-basis: 20%;
+    
+    
+    }
+    .logo img{
+        width: 80px;
+        height: 80px;
+        align-self: left;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border-radius: 95px;
+        -webkit-border-radius: 95px;
+        -moz-border-radius: 95px;
+        -ms-border-radius: 95px;
+        -o-border-radius: 95px;
+}
+    .logo a:hover img{
+        width: 90px;
+        height: 90px;
+        margin-left: -15px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border-radius: 120px;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+        -ms-border-radius: 120px;
+        -o-border-radius: 120px;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 3px;
+    
+    }
+    .nav-links ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .nav-links ul li a:hover{
+        font-size: 22px;
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        margin-top: -2px;
+    } 
+}
