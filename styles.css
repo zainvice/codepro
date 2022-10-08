@@ -347,7 +347,7 @@ body{
     
         background-color:  rgb(88, 10, 177);
       height: 5vh;
-        margin-left: 40px;
+        margin-left: 80px;
     
     }
     .footer a{
@@ -359,7 +359,7 @@ body{
         background-color: white;
         text-decoration: none;  
         margin-top: 15px;    
-        font-size: 15px;
+        font-size: 10px;
     }
     .footer a:hover{
         background-color:  rgb(88, 10, 177);
