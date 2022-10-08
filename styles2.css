@@ -3,7 +3,7 @@ body{
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: linear-gradient(to right, rgb(88, 10, 177), red);
+    background: #002849;
     height: auto;
     width: auto;
 }  
@@ -12,7 +12,7 @@ body{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(to right, rgb(88, 10, 177), red);
+    background: #003866;
 
 }
 nav{
@@ -80,11 +80,12 @@ nav{
    
 }
 .name{
-    font-size: 27px;
     text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
-    color: aliceblue;
-
+    height: 10vh;
 }
 .name:hover{
     cursor: pointer;
@@ -331,13 +332,14 @@ nav{
     }
     .nav-links{
         flex: 1;
-        text-align: right;
+        text-align: center;
+        margin-left: 15px;
     }
     .nav-links ul li{
         list-style: none;
         display: inline-block;
-        margin: 0 3px;
-    
+        margin: 0 5px;
+        
     }
     .nav-links ul li a{
         color: white;
@@ -355,7 +357,7 @@ nav{
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         color: aliceblue;
-    
+        margin-top: 15px;
     }
     .name:hover{
         cursor: pointer;
@@ -375,8 +377,7 @@ nav{
     }
     .slides{
       
-        width: auto;
-        height: auto;
+     
         display: flex;
         
        
@@ -405,19 +406,20 @@ nav{
         display: flex;
         margin: auto;
         justify-content: center;
-        margin-left: -150px;
-        
+        margin-left: 150px;
+        margin-top: 190px;
     } 
+   
     .man-btn{
         border: 2px solid rgb(255, 166, 0);
         padding: 5px;
-        border-radius: 5px;
+        border-radius: 10px;
         cursor: pointer;
         transition: 1s;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
     .man-btn:not(:last-child){
         margin-right: 40px;
@@ -443,8 +445,9 @@ nav{
         width: 10px;
         height: 10px;
         display: flex;
-        margin: auto;
         justify-content: center;
+        margin-left: 150px;
+        margin-top: 190px;
     } 
     .auto-nav div{
         border: 2px solid rgb(255, 166, 0);
@@ -488,5 +491,11 @@ nav{
         background-color: transparent;
          color: rgb(0, 255, 21);
        
+    }
+    .Name{
+        color: rgb(255, 255, 255);
+        margin-top: 25px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
     }
 }
