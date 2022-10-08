@@ -4,8 +4,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
     background: linear-gradient(to right, rgb(88, 10, 177), red);
-    height: 100vh;
-
+    height: auto;
+    width: auto;
 }  
 
 .main{
@@ -473,16 +473,19 @@ nav{
     }
     .footer a{
         color: white;  
-        display: flex;     
+        display: flex;  
+        width: auto;
+        height: auto;   
     }
     .footer a:link{
-        background-color:  rgb(88, 10, 177);
+        background-color: transparent;
         text-decoration: none;  
-        margin-top: 15px;    
+        margin-left: -480px;   
         font-size: 12px;
+        text-align: center;
     }
     .footer a:hover{
-        background-color:  rgb(88, 10, 177);
+        background-color: transparent;
          color: rgb(0, 255, 21);
        
     }
