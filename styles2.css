@@ -478,7 +478,8 @@ nav{
         color: white;  
         display: flex;  
         width: auto;
-        height: auto;   
+        height: 0vh;
+        margin-top: 450px;
     }
     .footer a:link{
         background-color: transparent;
@@ -486,6 +487,7 @@ nav{
         margin-left: -480px;   
         font-size: 12px;
         text-align: center;
+
     }
     .footer a:hover{
         background-color: transparent;
@@ -498,4 +500,5 @@ nav{
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
+   
 }
