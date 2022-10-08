@@ -176,13 +176,13 @@ body{
     .nav-links ul li{
         list-style: none;
         display: inline-block;
-        margin: 0 5px;
+        margin: 0 3px;
     
     }
     .nav-links ul li a{
         color: white;
         text-decoration: none;
-        font-size: 12px;
+        font-size: 10px;
     }
     .nav-links ul li a:hover{
         font-size: 22px;
@@ -203,12 +203,12 @@ body{
         align-items: center;
         width : 340px;
         height : 200px;
-        margin-left: 30px;
+        margin-left: 10px;
     }
     #player2 .head{
         font-size: 25px;
         height: 100px;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 30px;
         color: aliceblue;
         font-family: 'Times New Roman', Times, serif;
@@ -235,7 +235,7 @@ body{
     
         background-color:  rgb(88, 10, 177);
       
-        margin-left: 90px;
+        margin-left: 70px;
     
     }
     .footer a{
