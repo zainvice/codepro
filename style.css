@@ -422,6 +422,9 @@ nav{
       margin-top: 50px;
       border-top: #FF0000;
   }
+  #link2{
+    color: #ddd;
+  }
   
 @media only screen and (max-width:700px){
     body {
@@ -780,5 +783,8 @@ nav{
       font-size: 15px;
       margin-top: 50px;
       border-top: #FF0000;
+  }
+  #link2{
+    color: #ddd;
   }
 }
