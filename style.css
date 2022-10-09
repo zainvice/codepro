@@ -755,7 +755,7 @@ nav{
     border: 0px solid #ddd;
     height: 10vh;
   }
-  .read-more-trigger {
+  .read-more-trigger:hover {
     cursor: pointer;
     display: inline-block;
     padding: 0 .5em;
