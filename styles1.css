@@ -124,7 +124,7 @@ body{
     align-items: center;
 
 }
-#player2 iframe {
+.player2 iframe {
     align-self: center;
     justify-content: center;
     align-items: center;
@@ -132,7 +132,7 @@ body{
     height : 400px;
     margin-left: 320px;
 }
-#player2 .head{
+.player2 .head{
     font-size: 40px;
     height: 100px;
     margin-left: 430px;
