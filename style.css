@@ -493,7 +493,7 @@ nav{
 
         color: rgb(177, 177, 177);  
         display: flex;
-        margin-left: 100px;  
+        margin-left: 90px;  
         height: 5vh;
     }
     .footer .copyright:link{
@@ -555,23 +555,20 @@ nav{
     margin-top: 10px;
 }
 .social .icon:hover .upwork iconify-icon{
-    margin-top: 10px;
+    margin-top: 7px;
+    font-size: 18px;
 }
 
 .social .icon:hover span iconify-icon{
-    font-size: 25px;
-    margin-top: 12px;
+    font-size: 20px;
+    margin-top: 5px;
     background-color: transparent;
     color: rgb(255, 255, 255); 
 }
-.social .icon span i{
-    font-size: 25px;
-    margin-top: 12px;
-    background-color: transparent;
- 
-}
+
 .social .icon:hover span {
     color: #fff;
+
 }
 .social .icon .tooltip{
     position: absolute;
