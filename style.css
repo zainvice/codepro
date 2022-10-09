@@ -426,13 +426,12 @@ nav{
         height: 150px;
     }
     .wrapper .static-text{
-
         font-size: 12px;
         color: aliceblue;
         margin-top: 4px;
         display: flex;
-    
-    }
+        }
+   
     .wrapper .dynamic-text{
         
         margin-left: -35px;
@@ -454,7 +453,7 @@ nav{
     }
     @keyframes slide {
         100%{
-            top: -315px;
+            top: -310px;
         }
     }
     .dynamic-text li span {
