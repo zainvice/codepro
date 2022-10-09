@@ -10,7 +10,7 @@ body{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: rgb(88, 10, 177)
+    background: rgb(98, 13, 196);
 
 }
 nav{
@@ -308,7 +308,7 @@ body{
     }
     .nav-links{
         flex: 1;
-        text-align: right;
+        text-align: center;
     }
     .nav-links ul li{
         list-style: none;

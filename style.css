@@ -115,6 +115,7 @@ nav{
     justify-content: center;
     align-self: center;
     margin-top: 40px;
+    width:auto;
     height: auto;
     border: 5px solid rgb(255, 136, 0);
         padding: 20px;   
@@ -205,6 +206,7 @@ nav{
     display: flex; 
     margin-left: 550px;  
     height: 5vh;
+   
 }
 .footer .copyright:link{
   
