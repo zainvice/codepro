@@ -3,7 +3,7 @@ body {
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: rgb(80, 80, 80);
+    background: rgb(46, 46, 46);
 }
 
 .main{
@@ -11,7 +11,7 @@ body {
     height: auto;
     position: relative;
     overflow: hidden;
-    background: rgb(54, 54, 54)
+    background-color:  rgb(65, 65, 65);
 
 }
 nav{
@@ -109,10 +109,12 @@ nav{
 
 }
 .wrapper{
+    background: rgb(80, 80, 80);
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: center;
+    margin-top: 40px;
     height: auto;
     border: 5px solid rgb(255, 136, 0);
         padding: 20px;   
@@ -201,7 +203,7 @@ nav{
 
     color: rgb(177, 177, 177);  
     display: flex; 
-    margin-left: 550px;  
+    margin-left: 620px;  
     height: 5vh;
 }
 .footer .copyright:link{
@@ -351,7 +353,7 @@ nav{
         margin: 0%;
         padding: 0%;
         font-size: 18;
-        background: rgb(80, 80, 80);
+        background: rgb(46, 46, 46);
         width: auto;
         height: auto;
     }
@@ -406,6 +408,7 @@ nav{
         margin-top: -2px;
     } 
     .wrapper{
+        background: rgb(80, 80, 80);
         display: flex;
         align-items: center;
         justify-content: center;
