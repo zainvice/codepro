@@ -178,26 +178,162 @@ body{
 }
 .footer{
 
-    background-color:  rgb(88, 10, 177);
-  
-    margin-left: 520px;
+    background: rgb(103, 13, 206);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    height: auto;
 
 }
-.footer a{
-    background-color:  rgb(88, 10, 177);
-    color: white;  
-    display: flex;     
+.footer .copyright{
+
+    color: rgb(177, 177, 177);  
+    display: flex; 
+    margin-left: 550px;  
+    height: 5vh;
 }
-.footer a:link{
-    background-color: white;
+.footer .copyright:link{
+  
     text-decoration: none;  
-    margin-top: 15px;    
+    margin-top: 0px;    
     font-size: 15px;
 }
-.footer a:hover{
-    background-color:  rgb(88, 10, 177);
-     color: rgb(0, 255, 21);
+.footer .copyright:hover{
    
+     color: rgb(236, 236, 236);
+   
+}
+.footer .social{
+
+    display: inline-flex;
+    height: 15vh;
+    width: auto;
+}
+.social .icon{
+    margin :0 20px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon span{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    display: block;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+}
+.social .icon span iconify-icon{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+    color: black; 
+}
+.social .icon .upwork iconify-icon{
+    margin-top: 14px;
+}
+.social .icon:hover .upwork iconify-icon{
+    margin-top: 14px;
+}
+
+.social .icon:hover span iconify-icon{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+}
+.social .icon span i{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+ 
+}
+.social .icon:hover span {
+    color: #fff;
+}
+.social .icon .tooltip{
+    position: absolute;
+    top: 0px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+   
+}
+.social .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.social .icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon:hover span,
+.social .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.social .facebook:hover span,
+.social .facebook:hover .tooltip,
+.social .facebook:hover .tooltip:before{
+
+    background-color: rgb(0, 202, 0);
+}
+.social .twitter:hover span,
+.social .twitter:hover .tooltip,
+.social .twitter:hover .tooltip:before{
+
+    background-color: rgb(0, 153, 255);
+}
+.social .instagram:hover span,
+.social .instagram:hover .tooltip,
+.social .instagram:hover .tooltip:before{
+
+    background-color: rgb(255, 0, 76);
+}
+.social .github:hover span,
+.social .github:hover .tooltip,
+.social .github:hover .tooltip:before{
+
+    background-color: rgb(0, 0, 0);
+}
+.social .tiktok:hover span,
+.social .tiktok:hover .tooltip,
+.social .tiktok:hover .tooltip:before{
+
+    background-color: rgb(43, 1, 1);
 }
 @media only screen and (max-width:700px){
     .logo{
@@ -342,28 +478,166 @@ body{
         color: aliceblue;
         margin-top: 5px;
     }
-
     .footer{
-    
-        background-color:  rgb(88, 10, 177);
-      height: 5vh;
-        margin-left: 80px;
+        background: rgb(103, 13, 206);
+        justify-content: center;
+         align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
     
     }
-    .footer a{
-        background-color:  rgb(88, 10, 177);
-        color: white;  
-        display: flex;     
+    .footer .copyright{
+
+        color: rgb(177, 177, 177);  
+        display: flex;
+        margin-left: 100px;  
+        height: 5vh;
     }
-    .footer a:link{
-        background-color: white;
+    .footer .copyright:link{
+      
         text-decoration: none;  
-        margin-top: 15px;    
-        font-size: 10px;
+        margin-top: 0px;    
+        font-size: 9px;
     }
-    .footer a:hover{
-        background-color:  rgb(88, 10, 177);
-         color: rgb(0, 255, 21);
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
        
     }
+
+.footer .social{
+    height: 15vh;
+    width: auto;
+    
+}
+.social .icon{
+    margin:0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon span{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    display: block;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+   
+}
+.social .icon span iconify-icon{
+    font-size: 15px;
+    margin-top: 8px;
+    background-color: transparent;
+    color: black; 
+}
+.social .icon .upwork iconify-icon{
+    margin-top: 10px;
+}
+.social .icon:hover .upwork iconify-icon{
+    margin-top: 10px;
+}
+
+.social .icon:hover span iconify-icon{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+    color: rgb(255, 255, 255); 
+}
+.social .icon span i{
+    font-size: 25px;
+    margin-top: 12px;
+    background-color: transparent;
+ 
+}
+.social .icon:hover span {
+    color: #fff;
+}
+.social .icon .tooltip{
+    position: absolute;
+    top: 0px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 18px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+   
+}
+.social .icon:hover .tooltip{
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.social .icon .tooltip:before{
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon:hover span,
+.social .icon:hover .tooltip{
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.social .facebook:hover span,
+.social .facebook:hover .tooltip,
+.social .facebook:hover .tooltip:before{
+
+    background-color: rgb(0, 202, 0);
+}
+.social .twitter:hover span,
+.social .twitter:hover .tooltip,
+.social .twitter:hover .tooltip:before{
+
+    background-color: rgb(0, 153, 255);
+}
+.social .instagram:hover span,
+.social .instagram:hover .tooltip,
+.social .instagram:hover .tooltip:before{
+
+    background-color: rgb(255, 0, 76);
+}
+.social .github:hover span,
+.social .github:hover .tooltip,
+.social .github:hover .tooltip:before{
+
+    background-color: rgb(0, 0, 0);
+}
+.social .tiktok:hover span,
+.social .tiktok:hover .tooltip,
+.social .tiktok:hover .tooltip:before{
+
+    background-color: rgb(43, 1, 1);
+}
+    
 }
