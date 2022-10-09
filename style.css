@@ -753,17 +753,17 @@ nav{
     display: inline-block;
     padding: 0 .5em;
     color: #666;
-    margin-left: 120px;
+    margin-left: 127px;
     line-height: 2;
     border: 0px solid #ddd;
-    height: 10vh;
+    height: 5vh;
   }
   .read-more-trigger:hover {
     cursor: pointer;
     display: inline-block;
     padding: 0 .5em;
     color: rgb(255, 255, 255);
-    margin-left: 120px;
+    margin-left: 127px;
     line-height: 2;
     border: 1px solid #ddd;
     height: 5vh;
