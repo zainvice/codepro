@@ -193,7 +193,7 @@ nav{
 }
 .emptyspace-2{
     width: auto;
-    height: 50vh;
+    height: 5vh;
     background-color: rgb(43, 43, 43);
 }
 .footer{
@@ -428,7 +428,38 @@ nav{
  .backg p{
     margin-top: 500px;
  }
-  
+ .links{
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: auto;
+    height: 40vh;
+ }
+ .links .img{
+    margin-left: 30px;
+   
+}
+.links .img a img{
+    border-radius: 10em;
+    border: 3px solid rgb(255, 172, 62);
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    opacity: 90%;
+}
+.links .img a:hover img{
+    border-radius: 10em;
+    opacity: 100%;
+    border: 3px solid rgb(255, 172, 62);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    cursor: pointer;
+}
 @media only screen and (max-width:700px){
     body {
         margin: 0%;
@@ -790,4 +821,38 @@ nav{
   #link2{
     color: #ddd;
   }
+  .links{
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: auto;
+    height: 20vh;
+ }
+ .links .img{
+    margin-left: 10px;
+   
+}
+.links .img a img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10em;
+    border: 3px solid rgb(255, 172, 62);
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    opacity: 90%;
+}
+.links .img a:hover img{
+    border-radius: 10em;
+    opacity: 100%;
+    border: 3px solid rgb(255, 172, 62);
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    -ms-border-radius: 10em;
+    -o-border-radius: 10em;
+    cursor: pointer;
+}
 }
