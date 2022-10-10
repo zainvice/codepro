@@ -92,11 +92,77 @@
             }, 5000);
         </script>
     </section>
+
+
+
+
   
     <!--Image Slider-->
+     <!--Image Slider-->
+     <section>
+        <div class="name" id="name">
+           <b> 2. EX-SHIP PROJECT</b>
+        </div>
+              <div class="slider">
+                <div class="slides">
+                <!--Buttons-->
+                <input type="radio" name="ra-btn" id="radio1">
+                <input type="radio" name="ra-btn" id="radio2">
+                <input type="radio" name="ra-btn" id="radio3">
+                <input type="radio" name="ra-btn" id="radio4">
+                <!--Buttons-->
+                <!--Images-->
+                <div class="slide first">
+                    <img src="proj/ex-ship/1st page.png" alt="" width="800px" height="520px">
+                </div>
+                <div class="slide">
+                    <img src="proj/ex-ship/2.png" alt="" width="800px" height="520px">
+                </div>
+                <div class="slide">
+                    <img src="proj/ex-ship/3.png" alt="" width="800px" height="520px">
+                </div>
+                <div class="slide">
+                    <img src="proj/ex-ship/4.png" alt="" width="800px" height="520px">
+                </div>
+                <!--Images-->
+                <!--Auto nav-->
+            
+                <div class="auto-nav">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+              
+                <!--Auto nav-->
+                <!--Manual Nav-->
+              
+                <div class="man-nav">
+                    <label for="radio1" class="man-btn"></label>
+                    <label for="radio2" class="man-btn"></label>
+                    <label for="radio3" class="man-btn"></label>
+                    <label for="radio4" class="man-btn"></label>
+                </div>
+              
+                <!--Manual Nav-->
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            var counter = 1 ;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter>4){
+                    counter=1;
+                }
+            }, 5000);
+        </script>
+    </section>
+    <!--Image 2nd Slider-->
     <div id="game">
         <div class="Name">
-           <b> 2. TIC TAC TOE HTML EDITION</b>
+           <b> 3. TIC TAC TOE HTML EDITION</b>
         </div>
         <p id="ins">Tap on a box to start<br><br>First Player starts as 
             <b>Player X</b><br>&<br>Second 

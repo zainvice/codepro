@@ -3,14 +3,14 @@ body{
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: rgb(88, 10, 177)
+    background: rgb(97, 201, 55)
 }
 
 .main{
     width: 100%;
     position: relative;
     overflow: hidden;
-    background: rgb(98, 13, 196);
+    background: rgb(53, 104, 51)
 
 }
 nav{
@@ -73,16 +73,13 @@ nav{
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
     margin-top: -2px;
 }
-body{
 
-    background: rgb(88, 10, 177);
-}
 .status{
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background:rgb(88, 10, 177);
+    background: rgb(97, 201, 55)
 }
 .status .text{
     
@@ -119,8 +116,7 @@ body{
     align-self: center;
 }
 .footer{
-
-    background: rgb(63, 7, 128);
+    background: rgb(53, 104, 51);
     justify-content: center;
     align-items: center;
     text-align: center;
