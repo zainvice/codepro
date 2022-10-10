@@ -133,6 +133,13 @@ nav{
     display: flex;
     justify-content: center;
 } 
+.mannav{
+    position: absolute;
+    width: 800px;
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+} 
 .man-btn{
     border: 2px solid rgb(255, 166, 0);
     padding: 5px;
@@ -147,6 +154,20 @@ nav{
 .man-btn:hover{
     background: rgb(255, 166, 0);
 }
+.manbtn{
+    border: 2px solid rgb(255, 166, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+ 
+}
+.manbtn:not(:last-child){
+    margin-right: 40px;
+}
+.manbtn:hover{
+    background: rgb(255, 166, 0);
+}
 #radio1:checked ~ .first{
     margin-left: 0;
 }
@@ -157,6 +178,18 @@ nav{
     margin-left: -40%;
 }
 #radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radioo1:checked ~ .firs{
+    margin-left: 0;
+}
+#radioo2:checked ~ .firs{
+    margin-left: -20%;
+}
+#radioo3:checked ~ .firs{
+    margin-left: -40%;
+}
+#radioo4:checked ~ .firs{
     margin-left: -60%;
 }
 /*for auto nav*/
@@ -180,6 +213,26 @@ nav{
 .auto-nav div:not(:last-child){
     margin-right: 40px;
 }
+.autonav{
+    position: absolute;
+    width: 800px;
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+} 
+.autonav div{
+    border: 2px solid rgb(255, 166, 0);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.autonav div:not(:last-child){
+    margin-right: 40px;
+}
 #radio1:checked ~ .auto-nav .auto-btn1{
     background: rgb(255, 166, 0);
 }
@@ -190,6 +243,18 @@ nav{
     background: rgb(255, 166, 0);
 }
 #radio4:checked ~ .auto-nav .auto-btn4{
+    background: rgb(255, 166, 0);
+}
+#radioo1:checked ~ .autonav .autobtn1{
+    background: rgb(255, 166, 0);
+}
+#radioo2:checked ~ .autonav .autobtn2{
+    background: rgb(255, 166, 0);
+}
+#radioo3:checked ~ .autonav .autobtn3{
+    background: rgb(255, 166, 0);
+}
+#radioo4:checked ~ .autonav .autobtn4{
     background: rgb(255, 166, 0);
 }
 
