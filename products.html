@@ -30,9 +30,9 @@
        
         <div class="player2" class="container tab-pane fade"><br>
           <p class="head">WATCH SPORTS LIVE 24/7</p>
-        <iframe  src="https://stream.crichd.vip/update/ptv.php"  onload="
-              document.getElementById('loader').style.display='none';
-              " scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+          <iframe  onload="
+          document.getElementById('iframe').setAttribute('sandbox','allow-forms allow-pointer-lock allow-same-origin allow-scripts allow-top-navigation');
+          " src="https://stream.crichd.vip/update/ptv.php" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="true" allow=" clipboard-write; encrypted-media; picture-in-picture; web-share" id="iframe"></iframe>
         </div>
         </div>
        <!--TEST-->
