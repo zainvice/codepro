@@ -355,7 +355,7 @@ nav{
         height: 100vh;
         justify-content: center;
         align-items: center;
-        background:rgb(88, 10, 177);
+        background: rgb(97, 201, 55);
     }
     .status .text{
         
@@ -368,7 +368,7 @@ nav{
         color: chartreuse;
     }
     .footer{
-        background: rgb(103, 13, 206);
+        background: rgb(53, 104, 51);
         justify-content: center;
          align-items: center;
         text-align: center;
