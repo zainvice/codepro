@@ -14,32 +14,31 @@ body {
     background-color:  rgb(66, 62, 62);
 
 }
+
 nav{
     width: 80%;
     position: sticky;
     margin: 20px auto;
     z-index: 1;
     display: flex;
-    align-items: center;
+
 
 
 }
 .logo{
     flex-basis: 20%;
-
-
+    margin-left: 200px;
 }
 .logo img{
     width: 125px;
     height: 125px;
-    align-self: left;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     border-radius: 120px;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
-    display: inline-block;
+
 }
 .logo a:hover img{
     width: 126px;
@@ -75,39 +74,85 @@ nav{
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
     margin-top: -2px;
 }
-.info{
-    width: 1000px;
-    height: 1000px;
-    position:absolute;
-    top: 50%;
-    left: -10%;
-    transform: translateY (-50%);
-    
-}
-
-.data{
-
-    flex: content;
-    text-align: center;
-
-}
-.data p{
-
-    color: white;
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color:  rgb(66, 62, 62);/* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-}
-.status{
- 
-    align-self: flex-end;
-   
-    
-}
-.sec{
-    width: 1500px;
-    height: 850px;
-    position: relative;
-
-}
+    font-size: 25px;
+    color: #d3d3d3;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: #f1f1f1;
+    text-shadow: 0 0 12px #af0000, 0 0 5px #0000FF;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    font-size: 27px;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 50px;
+    /* width:80px; */
+    cursor: pointer;
+    background-color:  rgb(66, 62, 62);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-left: -80px;
+  }
+  
+  .openbtn:hover {
+    background-color:  rgb(66, 62, 62);
+    text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #mains {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+ .main-text {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    margin-left: 200px;
+    margin-top: 20px;
+    white-space: nowrap;
+ }
+ .main-text:hover {
+    text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+ }
 .wrapper{
     background: rgb(80, 80, 80);
     display: flex;
@@ -129,7 +174,7 @@ nav{
 .profile img{
     margin-left: -150px;
     margin-top: -10px;
-
+    
 }
 .wrapper .static-text{
 
@@ -141,7 +186,7 @@ nav{
 }
 .wrapper .dynamic-text{
     
-    margin-left: 20px;
+    margin-left: -10px;
     height: 80px;
     line-height: 80px;
     overflow: hidden;
@@ -152,11 +197,32 @@ nav{
     list-style: none;
     font-size: 60px;
     font-weight: 700;
-    color: rgb(255, 172, 62);
+    color: rgb(255, 136, 0);
+    
     position:relative;
     top: 0;
     animation: slide 16s steps(4) infinite;
     -webkit-animation: slide 16s steps(4) infinite;
+}
+.dynamic-text li span:hover{
+    cursor: pointer;
+    text-shadow: 0 0 12px #ffffff, 0 0 5px #ffffff;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.wrapper .static-text:hover{
+    font-size: 60px;
+    color: aliceblue;
+    margin-top: 5px;
+    text-shadow: 0 0 12px #ffca8d, 0 0 5px #ffffff;
+    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 @keyframes slide {
     100%{
@@ -174,7 +240,7 @@ nav{
     height: 100%;
     width: 100%;
     background: rgb(80, 80, 80);
-    border-left: 2px solid rgb(255, 172, 62);
+    border-left: 2px solid rgb(255, 136, 0);
     animation: typing 4s steps(13) infinite;
     -webkit-animation: typing 4s steps(13) infinite;
 }
@@ -460,7 +526,7 @@ nav{
     -o-border-radius: 10em;
     cursor: pointer;
 }
-@media only screen and (max-width:700px){
+@media only screen and (max-width:792px){
     body {
         margin: 0%;
         padding: 0%;
@@ -469,6 +535,40 @@ nav{
         width: auto;
         height: auto;
     }
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      /* The button used to open the sidebar */
+      .openbtn {
+        font-size: 20px;
+        /* width:80px; */
+        cursor: pointer;
+        background-color: rgb(58, 58, 58);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        margin-left: -50px;
+      }
+      
+      .openbtn:hover {
+        background-color: #444;
+      }
+      
+      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+      #mains {
+        transition: margin-left .5s; /* If you want a transition effect */
+        padding: 20px;
+      }
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+     
     .logo{
         flex-basis: 20%;
     
@@ -477,18 +577,18 @@ nav{
     .logo img{
         width: 80px;
         height: 80px;
-        align-self: left;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border-radius: 95px;
         -webkit-border-radius: 95px;
         -moz-border-radius: 95px;
         -ms-border-radius: 95px;
         -o-border-radius: 95px;
+        margin: 0;
 }
     .logo a:hover img{
         width: 90px;
         height: 90px;
-        margin-left: -15px;
+      
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border-radius: 120px;
         -webkit-border-radius: 120px;

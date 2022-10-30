@@ -10,16 +10,24 @@
 <body>
     <div class="main">
         <nav>
-            <div class="logo">
-                <a href="https://www.upwork.com/freelancers/~01f57154b8155bc912" target="_blank" title="Freelancer Profile"><img src="img/logo.png" ></a>
+            
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="products.html">Shop</a>
+                <a href="contactus.html">Contact</a>
+              </div>
+              
+              <div id="mains">
+                <button class="openbtn" onclick="openNav()" onblur="closeNav()">&#9776; </button>
+                
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                </ul>
+             
+                
+            <a class="main-text" href="index.html">THE PRO CODING GUY</a>
+              <div class="logo">
+                <a href="https://www.upwork.com/freelancers/~01f57154b8155bc912" target="_blank" title="Freelancer Profile"><img src="img/logo.png" ></a>
             </div>
         </nav>
     </div>
@@ -98,7 +106,7 @@
             </div>
             
 
-
+            <br>
         </div>
      
         <a class="copyright" href="https://www.upwork.com/freelancers/~01f57154b8155bc912 "
@@ -106,6 +114,7 @@
         The Pro Coding Guy &copy; Copyright 2022
         </a>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
