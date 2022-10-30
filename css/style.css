@@ -547,19 +547,17 @@ nav{
       
       /* The button used to open the sidebar */
       .openbtn {
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: -12px;
         /* width:80px; */
         cursor: pointer;
-        background-color: rgb(58, 58, 58);
         color: white;
         padding: 10px 15px;
         border: none;
         margin-left: -50px;
       }
       
-      .openbtn:hover {
-        background-color: #444;
-      }
+    
       
       /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
       #mains {
@@ -567,8 +565,19 @@ nav{
         padding: 20px;
       }
       
-      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-     
+      .main-text {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        margin-left: -5px;
+        margin-top: 20px;
+        white-space: nowrap;
+     }
+     .main-text:hover {
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+     }
     .logo{
         flex-basis: 20%;
     
@@ -583,11 +592,11 @@ nav{
         -moz-border-radius: 95px;
         -ms-border-radius: 95px;
         -o-border-radius: 95px;
-        margin: 0;
+        margin-left: -170px;
 }
     .logo a:hover img{
-        width: 90px;
-        height: 90px;
+        width: 82px;
+        height: 82px;
       
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border-radius: 120px;
