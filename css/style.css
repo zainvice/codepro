@@ -1,3 +1,540 @@
+@media screen and (min-width: 1092px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18;
+        background: rgb(46, 46, 46);
+    }
+    
+    .main{
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        background-color:  rgb(66, 62, 62);
+    
+    }
+    .bg-tab{
+        display: flex;
+        width: 80%;
+        position: sticky;
+        margin: 20px auto;
+        z-index: 1;
+    }
+    .mob-tab{
+        display: none;
+        /*width: 80%;
+        position: sticky;
+        margin: 20px auto;
+        z-index: 1;*/
+    }
+    .logo{
+        flex-basis: 20%;
+        float: left;
+    }
+    .logo img{
+        width: 125px;
+        height: 125px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border-radius: 120px;
+        -webkit-border-radius: 120px;
+        -moz-border-radius: 120px;
+        -ms-border-radius: 120px;
+        -o-border-radius: 120px;
+    
+    }
+    .logo a:hover img{
+        width: 126px;
+        height: 126px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        border-radius: 80px;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        -ms-border-radius: 80px;
+        -o-border-radius: 80px;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .nav-links{
+        flex: 1;
+        text-align: right;
+        
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        margin-top: 30px;
+    
+    }
+    .nav-links ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        display: inline-flex;
+        
+    }
+    .nav-links ul li a:hover{
+        font-size: 22px;
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        margin-top: -2px;
+    }
+    /* The sidebar menu */
+    .sidebar {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color:  rgb(66, 62, 62);/* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+      }
+      
+      /* The sidebar links */
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #d3d3d3;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      /* When you mouse over the navigation links, change their color */
+      .sidebar a:hover {
+        color: #f1f1f1;
+        text-shadow: 0 0 12px #af0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        font-size: 27px;
+      }
+      
+      /* Position and style the close button (top right corner) */
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      /* The button used to open the sidebar */
+      .openbtn {
+        font-size: 50px;
+        /* width:80px; */
+        cursor: pointer;
+        background-color:  rgb(66, 62, 62);
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        margin-left: -80px;
+      }
+      
+      .openbtn:hover {
+        background-color:  rgb(66, 62, 62);
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+      }
+      
+      /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+      #mains {
+        transition: margin-left .5s; /* If you want a transition effect */
+        padding: 20px;
+      }
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+     .main-text {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 50px;
+        color: white;
+        margin-left: 200px;
+        margin-top: 20px;
+        white-space: nowrap;
+     }
+     .main-text:hover {
+        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+     }
+    .wrapper{
+        background: rgb(80, 80, 80);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        margin-top: 40px;
+        margin-bottom: -28px;
+        width:auto;
+        height: auto;
+        border: 5px solid rgb(255, 136, 0);
+            padding: 20px;   
+      
+    }
+    .profile{
+        width: auto;
+        height: auto;
+    }
+    .profile img{
+        margin-left: -150px;
+        margin-top: -10px;
+        
+    }
+    .wrapper .static-text{
+    
+        font-size: 60px;
+        color: aliceblue;
+        margin-top: 5px;
+    
+    
+    }
+    .wrapper .dynamic-text{
+        
+        margin-left: -10px;
+        height: 80px;
+        line-height: 80px;
+        overflow: hidden;
+        
+      
+    }
+    .dynamic-text li{
+        list-style: none;
+        font-size: 60px;
+        font-weight: 700;
+        color: rgb(255, 136, 0);
+        
+        position:relative;
+        top: 0;
+        animation: slide 16s steps(4) infinite;
+        -webkit-animation: slide 16s steps(4) infinite;
+    }
+    .dynamic-text li span:hover{
+        cursor: pointer;
+        text-shadow: 0 0 12px #ffffff, 0 0 5px #ffffff;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .wrapper .static-text:hover{
+        font-size: 60px;
+        color: aliceblue;
+        margin-top: 5px;
+        text-shadow: 0 0 12px #ffca8d, 0 0 5px #ffffff;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    @keyframes slide {
+        100%{
+            top: -315px;
+        }
+    }
+    .dynamic-text li span {
+        position: relative;
+       
+    }
+    .dynamic-text li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(80, 80, 80);
+        border-left: 2px solid rgb(255, 136, 0);
+        animation: typing 4s steps(13) infinite;
+        -webkit-animation: typing 4s steps(13) infinite;
+    }
+    @keyframes typing {
+        40%, 60%{
+          left: calc(100% + 30px);
+        }
+        100%{
+          left: 0;
+        }
+      }
+    .emptyspace{
+        width: auto;
+        height: 5vh;
+        background-color: rgb(43, 43, 43);
+    }
+    .emptyspace-2{
+        width: auto;
+        height: 5vh;
+        background-color: rgb(43, 43, 43);
+    }
+    .footer{
+    
+        background-color:  rgb(51, 51, 51);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+        display: flex; 
+        margin-left: 550px;  
+        height: 5vh;
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
+    .footer .social{
+    
+        display: inline-flex;
+        height: 15vh;
+        width: auto;
+    }
+    .social .icon{
+        margin :0 20px;
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .social .icon span{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        display: block;
+        background-color: #fff;
+        color: black;
+        text-align: center;
+        border-radius: 50%;
+        z-index: 2;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+       
+    }
+    .social .icon span iconify-icon{
+        font-size: 25px;
+        margin-top: 12px;
+        background-color: transparent;
+        color: black; 
+    }
+    .social .icon .upwork iconify-icon{
+        margin-top: 14px;
+    }
+    .social .icon:hover .upwork iconify-icon{
+        margin-top: 14px;
+    }
+    
+    .social .icon:hover span iconify-icon{
+        font-size: 25px;
+        margin-top: 12px;
+        background-color: transparent;
+        color: rgb(255, 255, 255); 
+    }
+    .social .icon span i{
+        font-size: 25px;
+        margin-top: 12px;
+        background-color: transparent;
+     
+    }
+    .social .icon:hover span {
+        color: #fff;
+    }
+    .social .icon .tooltip{
+        position: absolute;
+        top: 0px;
+        background-color: #fff;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 18px;
+        border-radius: 25px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+       
+    }
+    .social .icon:hover .tooltip{
+        top: -70px;
+        opacity: 1;
+        pointer-events: auto;
+    }
+    .social .icon .tooltip:before{
+        position: absolute;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background: #fff;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        -webkit-transform: translateX(-50%) rotate(45deg);
+        -moz-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+        -o-transform: translateX(-50%) rotate(45deg);
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .social .icon:hover span,
+    .social .icon:hover .tooltip{
+        text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+    }
+    .social .facebook:hover span,
+    .social .facebook:hover .tooltip,
+    .social .facebook:hover .tooltip:before{
+    
+        background-color: rgb(0, 202, 0);
+    }
+    .social .twitter:hover span,
+    .social .twitter:hover .tooltip,
+    .social .twitter:hover .tooltip:before{
+    
+        background-color: rgb(0, 153, 255);
+    }
+    .social .instagram:hover span,
+    .social .instagram:hover .tooltip,
+    .social .instagram:hover .tooltip:before{
+    
+        background-color: rgb(255, 0, 76);
+    }
+    .social .github:hover span,
+    .social .github:hover .tooltip,
+    .social .github:hover .tooltip:before{
+    
+        background-color: rgb(0, 0, 0);
+    }
+    .social .tiktok:hover span,
+    .social .tiktok:hover .tooltip,
+    .social .tiktok:hover .tooltip:before{
+    
+        background-color: rgb(43, 1, 1);
+    }
+    /*Experimental*/
+    .read-more-state {
+        display: none;
+      }
+      
+      .read-more-target {
+        opacity: 0;
+        max-height: 0;
+        font-size: 0;
+        transition: .25s ease;
+      }
+      
+      .read-more-state:checked ~ .read-more-wrap .read-more-target {
+        opacity: 1;
+        font-size: inherit;
+        max-height: 999em;
+      }
+      
+      .read-more-state ~ .read-more-trigger:before {
+        content: 'Show More';
+        font-size: 25px;
+      }
+      
+      
+      .read-more-state:checked ~ .read-more-trigger:before {
+        content: 'Show Less';
+        font-size: 25px;
+      }
+      
+      .read-more-trigger {
+        cursor: pointer;
+        display: inline-block;
+        padding: 0 .5em;
+        color: #666;
+        margin-top: 0px;
+        margin-left: 620px;
+        line-height: 2;
+        border: 0px solid #ddd;
+        height: 10vh;
+        border-radius: .25em;
+      }
+      .read-more-trigger:hover {
+          cursor: pointer;
+          display: inline-block;
+          padding: 0 .5em;
+          color: rgb(255, 255, 255);
+          height: 10vh;
+          margin-left: 620px;
+          line-height: 2.5;
+          border: 1px solid #ddd;
+          border-radius: 3em;
+          -webkit-border-radius: 3em;
+          -moz-border-radius: 3em;
+          -ms-border-radius: 3em;
+          -o-border-radius: 3em;
+      }
+      .read-more-wrap{
+          text-align: center;
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          width: auto;
+          height: auto;
+          font-size: 25px;
+          margin-top: 50px;
+          border-top: #FF0000;
+      }
+      #link2{
+        color: #ddd;
+      }
+     .backg p{
+        margin-top: 500px;
+     }
+     .links{
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+        margin-top: 50px;
+        width: auto;
+        height: 40vh;
+     }
+     .links .img{
+        margin-left: 30px;
+       
+    }
+    .links .img a img{
+        border-radius: 10em;
+        border: 3px solid rgb(255, 172, 62);
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+        -ms-border-radius: 10em;
+        -o-border-radius: 10em;
+        opacity: 90%;
+    }
+    .links .img a:hover img{
+        border-radius: 10em;
+        opacity: 100%;
+        border: 3px solid rgb(255, 172, 62);
+        box-shadow: 0 20px 20px rgba(0,0,0,0.3);
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+        -ms-border-radius: 10em;
+        -o-border-radius: 10em;
+        cursor: pointer;
+    }
+    
+}
+@media (min-width: 793px ) and (max-width:1091px){
 body {
     margin: 0%;
     padding: 0%;
@@ -15,23 +552,30 @@ body {
 
 }
 
-nav{
+.bg-tab{
+    display: none;
     width: 80%;
     position: sticky;
     margin: 20px auto;
     z-index: 1;
-    display: flex;
-
-
-
 }
+.mob-tab{
+    display: flex;
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+}
+
+
 .logo{
     flex-basis: 20%;
-    margin-left: 200px;
+    margin-left: 30px;
+    float: right;
 }
 .logo img{
-    width: 125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     border-radius: 120px;
     -webkit-border-radius: 120px;
@@ -41,8 +585,8 @@ nav{
 
 }
 .logo a:hover img{
-    width: 126px;
-    height: 126px;
+    width: 112px;
+    height: 112px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     border-radius: 80px;
     -webkit-border-radius: 80px;
@@ -143,10 +687,10 @@ nav{
  .main-text {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    margin-left: 200px;
-    margin-top: 20px;
+    margin-left: 15px;
+    margin-top: 35px;
     white-space: nowrap;
  }
  .main-text:hover {
@@ -172,15 +716,17 @@ nav{
     height: auto;
 }
 .profile img{
-    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+    margin-left: -50px;
     margin-top: -10px;
     
 }
 .wrapper .static-text{
 
-    font-size: 60px;
+    font-size: 40px;
     color: aliceblue;
-    margin-top: 5px;
+   
 
 
 }
@@ -195,10 +741,9 @@ nav{
 }
 .dynamic-text li{
     list-style: none;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     color: rgb(255, 136, 0);
-    
     position:relative;
     top: 0;
     animation: slide 16s steps(4) infinite;
@@ -214,7 +759,7 @@ nav{
     -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 .wrapper .static-text:hover{
-    font-size: 60px;
+    font-size: 40px;
     color: aliceblue;
     margin-top: 5px;
     text-shadow: 0 0 12px #ffca8d, 0 0 5px #ffffff;
@@ -236,6 +781,7 @@ nav{
 .dynamic-text li span::after{
     content: "";
     position: absolute;
+    margin-top: 10px;
     left: 0;
     height: 100%;
     width: 100%;
@@ -276,7 +822,7 @@ nav{
 
     color: rgb(177, 177, 177);  
     display: flex; 
-    margin-left: 550px;  
+    margin-left: 250px;  
     height: 5vh;
    
 }
@@ -457,7 +1003,7 @@ nav{
     padding: 0 .5em;
     color: #666;
     margin-top: 0px;
-    margin-left: 620px;
+    margin-left: 350px;
     line-height: 2;
     border: 0px solid #ddd;
     height: 10vh;
@@ -469,7 +1015,6 @@ nav{
       padding: 0 .5em;
       color: rgb(255, 255, 255);
       height: 10vh;
-      margin-left: 620px;
       line-height: 2.5;
       border: 1px solid #ddd;
       border-radius: 3em;
@@ -497,13 +1042,13 @@ nav{
  .links{
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
+    margin-left: 80px;
     margin-top: 50px;
     width: auto;
     height: 40vh;
  }
  .links .img{
-    margin-left: 30px;
+    margin-left: 10px;
    
 }
 .links .img a img{
@@ -526,7 +1071,9 @@ nav{
     -o-border-radius: 10em;
     cursor: pointer;
 }
+}
 @media only screen and (max-width:792px){
+
     body {
         margin: 0%;
         padding: 0%;
@@ -605,6 +1152,20 @@ nav{
         -ms-border-radius: 120px;
         -o-border-radius: 120px;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .bg-tab{
+        display: none;
+        width: 80%;
+        position: sticky;
+        margin: 20px auto;
+        z-index: 1;
+    }
+    .mob-tab{
+        display: flex;
+        width: 80%;
+        position: sticky;
+        margin: 20px auto;
+        z-index: 1;
     }
     .nav-links{
         flex: 1;
