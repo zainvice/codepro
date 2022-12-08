@@ -1301,7 +1301,7 @@ body {
     }
     .main{
         width: 100%;
-        height: auto;
+        height: 20vh;
         position: relative;
         overflow: hidden;
         background-color:  rgb(66, 62, 62);
@@ -1310,7 +1310,7 @@ body {
     .logo{
         flex-basis: 20%;
         margin-left: 200px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .logo img{
         width: 80px;
@@ -1321,7 +1321,7 @@ body {
         -moz-border-radius: 95px;
         -ms-border-radius: 95px;
         -o-border-radius: 95px;
-        margin-left: -170px;
+        margin-left: -200px;
 }
     .logo a:hover img{
         width: 82px;
@@ -1392,14 +1392,15 @@ body {
       
       /* The button used to open the sidebar */
       .openbtn {
-        font-size: 45px;
+        font-size: 40px;
+        margin-top: -20px;
         /* width:80px; */
         cursor: pointer;
         background-color:  rgb(66, 62, 62);
         color: white;
-        padding: 10px 15px;
+        padding: 15px 15px;
         border: none;
-        margin-left: -60px;
+        margin-left: -55px;
       }
       
       .openbtn:hover {
@@ -1418,10 +1419,10 @@ body {
      .main-text {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 17px;
         color: white;
-        margin-left: 0px;
-        margin-top: 45px;
+        margin-left: -45px;
+        margin-top: 25px;
         white-space: nowrap;
      }
      .main-text:hover {
@@ -1456,7 +1457,7 @@ body {
         align-items: center;
         justify-content: center;
         align-self: center;
-        height: auto;
+        height: 18vh;
         border: 5px solid rgb(255, 136, 0);
             padding: 20px;   
      
