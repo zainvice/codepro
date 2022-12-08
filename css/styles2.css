@@ -583,7 +583,11 @@ nav{
         -ms-border-radius: 120px;
         -o-border-radius: 120px;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
-    }
+        -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -moz-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+        -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
     .nav-links{
         flex: 1;
         text-align: center;
