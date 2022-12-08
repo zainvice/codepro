@@ -190,14 +190,7 @@ body{
     color: aliceblue;
     margin-top: 5px;
 }
-.container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background:rgb(88, 10, 177);
 
-}
 .footer{
 
     background: rgb(103, 13, 206);
@@ -506,7 +499,7 @@ body{
     }
     .status{
         display: flex;
-        height: 50vh;
+        height: 10vh;
         justify-content: center;
         align-items: center;
         background:rgb(88, 10, 177);
@@ -518,30 +511,27 @@ body{
         margin-top: 5px;
     }
     .footer{
-        background: rgb(103, 13, 206);
+        background: rgb(92, 12, 184);
         justify-content: center;
          align-items: center;
         text-align: center;
         width: auto;
-        height: auto;
+        height: 20vh;
     
     }
-    .footer .copyright{
-
-        color: rgb(177, 177, 177);  
-        display: flex;
+    .footer-copy{
         height: 5vh;
+        margin: auto;
+        text-align: center;
     }
-    .footer .copyright:link{
-      
-        text-decoration: none;  
-        margin-top: 0px;    
-        font-size: 9px;
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
     }
-    .footer .copyright:hover{
-       
-         color: rgb(236, 236, 236);
-       
+    .footer-copy span{
+        display: flex;
+        margin-left: -500px;
     }
 
 .footer .social{
