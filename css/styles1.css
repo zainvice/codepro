@@ -97,6 +97,7 @@ nav{
     height: 100vh;
     justify-content: center;
     align-items: center;
+    
 
 }
 .player2 iframe {
@@ -106,6 +107,7 @@ nav{
     width : 698px;
     height : 400px;
     margin-left: 320px;
+    border: solid 3px black;
 }
 .player2 .head{
     font-size: 40px;
