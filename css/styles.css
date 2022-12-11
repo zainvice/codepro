@@ -1,4 +1,4 @@
-@media only screen and (min-width:701px){
+
     *{
     margin: 0%;
     padding: 0%;
@@ -171,7 +171,7 @@ body{
 
 .footer{
 
-    background: rgb(103, 13, 206);
+    background-color:  rgb(51, 51, 51);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -179,12 +179,20 @@ body{
     height: auto;
 
 }
+.footer-copy{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
+.footer-copy span{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
 .footer .copyright{
 
     color: rgb(177, 177, 177);  
-    display: flex; 
-    margin-left: 550px;  
-    height: 5vh;
+   
 }
 .footer .copyright:link{
   
@@ -345,9 +353,84 @@ body{
 .testing #response{
     font-size: 50px;
 }
+@media only screen and (min-width:1092px){
+    .footer{
+    
+        background:rgb(83, 9, 167);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    
+    }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+       
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
 }
+@media (min-width: 793px ) and (max-width:1091px){
+    .footer{
 
-@media only screen and (max-width:700px){
+        background:rgb(83, 9, 167);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    
+    }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
+}
+@media only screen and (max-width:791px){
     
     
     .main{
@@ -507,23 +590,46 @@ body{
         color: aliceblue;
         margin-top: 5px;
     }
-.footer{
-        display: flex;
-        background: rgb(92, 12, 184);
+    .footer{
+        background:rgb(83, 9, 167);
         justify-content: center;
+         align-items: center;
+        text-align: center;
         width: auto;
-        height: 30vh;
-        
+        height: auto;
+        margin-top: 130px;
+
     }
-.footer .footer-copy{
-    font-size: 15px;
-    background: rgb(92, 12, 184);
-    display: none;
-}
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+
+        color: rgb(177, 177, 177);  
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 9px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
 .footer .social{
    
+    height: 15vh;
     width: auto;
-    display: flex;
 }
 .social .icon{
     margin:0 5px;
@@ -605,7 +711,7 @@ body{
    
 }
 .social .icon:hover .tooltip{
-    top: -5px;
+    top: -15px;
     opacity: 1;
     pointer-events: auto;
 }

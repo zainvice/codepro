@@ -352,12 +352,21 @@ nav{
     height: auto;
 
 }
+
+.footer-copy{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
+.footer-copy span{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
 .footer .copyright{
 
     color: rgb(177, 177, 177);  
-    display: flex; 
-    margin-left: 550px;  
-    height: 5vh;
+   
 }
 .footer .copyright:link{
   
@@ -544,8 +553,91 @@ nav{
     -ms-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
     -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
-
-@media only screen and (max-width:700px){
+@media only screen and (min-width:1092px) {
+    .footer{
+    
+       
+    background-color:  #001d35;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        height: auto;
+    
+    }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+       
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
+}
+@media (min-width: 793px ) and (max-width:1091px){
+    .footer{
+    
+       
+        background-color:  #001d35;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: auto;
+            height: auto;
+        
+        }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
+    .footer .social{
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:792px){
     body{
         margin: 0%;
         padding: 0%;
@@ -604,7 +696,7 @@ nav{
         font-size: 10px;
     }
     .nav-links ul li a:hover{
-        font-size: 12px;
+        font-size: 10px;
         text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
         margin-top: -2px;
@@ -815,12 +907,20 @@ nav{
         height: auto;
     
     }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
     .footer .copyright{
 
         color: rgb(177, 177, 177);  
-        display: flex;
-        margin-left: 150px;  
-        height: 5vh;
+       
     }
     .footer .copyright:link{
       
@@ -837,7 +937,10 @@ nav{
 .footer .social{
     height: 15vh;
     width: auto;
-    
+    display: flex;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
 }
 .social .icon{
     margin:0 5px;

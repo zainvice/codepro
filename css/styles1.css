@@ -127,12 +127,21 @@ nav{
     height: auto;
 
 }
+.footer-copy{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
+.footer-copy span{
+    height: 5vh;
+    margin: auto;
+    text-align: center;
+}
 .footer .copyright{
 
     color: rgb(177, 177, 177);  
-    display: flex; 
-    margin-left: 550px;  
-    height: 5vh;
+   
+   
 }
 .footer .copyright:link{
   
@@ -276,8 +285,36 @@ nav{
 
     background-color: rgb(43, 1, 1);
 }
-
-@media only screen and (max-width:700px){
+@media only screen and (min-width:1092px){
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer .copyright{
+    
+        color: rgb(177, 177, 177);  
+       
+       
+    }
+    .footer .copyright:link{
+      
+        text-decoration: none;  
+        margin-top: 0px;    
+        font-size: 15px;
+    }
+    .footer .copyright:hover{
+       
+         color: rgb(236, 236, 236);
+       
+    }
+}
+@media only screen and (max-width:792px){
     .logo{
         flex-basis: 20%;
     
@@ -378,12 +415,20 @@ nav{
         height: auto;
     
     }
+    .footer-copy{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
+    .footer-copy span{
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+    }
     .footer .copyright{
 
         color: rgb(177, 177, 177);  
-        display: flex;
-        margin-left: 150px;  
-        height: 5vh;
+       
     }
     .footer .copyright:link{
       
@@ -396,7 +441,6 @@ nav{
          color: rgb(236, 236, 236);
        
     }
-
 .footer .social{
     height: 15vh;
     width: auto;

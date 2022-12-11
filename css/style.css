@@ -670,6 +670,7 @@ body {
       .read-more-state:checked ~ .read-more-trigger:before {
         content: 'Show Less';
         font-size: 25px;
+        
       }
       
       .read-more-trigger {
@@ -680,7 +681,6 @@ body {
         margin-top: 0px;
         margin-left: 620px;
         line-height: 2;
-        border: 0px solid #ddd;
         height: auto;
         border-radius: .25em;
       }
