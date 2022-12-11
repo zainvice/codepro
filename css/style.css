@@ -1507,7 +1507,7 @@ body {
       }
       
       .openbtn:hover {
-        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        text-shadow: 0 0 12px rgb(255, 136, 0), 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
       }
       
