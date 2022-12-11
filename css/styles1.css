@@ -351,6 +351,7 @@ nav{
     .nav-links{
         flex: 1;
         text-align: center;
+        margin-left: 15px;
     }
     .nav-links ul li{
         list-style: none;
