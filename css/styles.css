@@ -30,11 +30,12 @@ nav{
 
 }
 .logo img{
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     align-self: left;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     border-radius: 120px;
+    border: 1px solid purple;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
@@ -42,9 +43,7 @@ nav{
 
 }
 .logo a:hover img{
-    width: 130px;
-    height: 130px;
-    margin-left: -3px;
+    opacity: 100%;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     border-radius: 120px;
     -webkit-border-radius: 120px;
@@ -66,10 +65,10 @@ nav{
 .nav-links ul li a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 .nav-links ul li a:hover{
-    font-size: 22px;
+
     text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
     margin-top: -2px;
@@ -492,7 +491,7 @@ body{
         font-size: 10px;
     }
     .nav-links ul li a:hover{
-        font-size: 12px;
+  
         text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
         margin-top: -2px;

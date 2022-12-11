@@ -29,6 +29,7 @@ nav{
 
 }
 .logo img{
+    opacity: 90%;
     width: 125px;
     height: 125px;
     align-self: left;
@@ -41,9 +42,7 @@ nav{
 
 }
 .logo a:hover img{
-    width: 130px;
-    height: 130px;
-    margin-left: -3px;
+    opacity: 100%;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     border-radius: 120px;
     -webkit-border-radius: 120px;
@@ -286,6 +285,14 @@ nav{
     background-color: rgb(43, 1, 1);
 }
 @media only screen and (min-width:1092px){
+    .logo img{
+        border: 1px solid white;
+        border-radius: 30em;
+        -webkit-border-radius: 30em;
+        -moz-border-radius: 30em;
+        -ms-border-radius: 30em;
+        -o-border-radius: 30em;
+}
     .footer-copy{
         height: 5vh;
         margin: auto;

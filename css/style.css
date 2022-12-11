@@ -1416,15 +1416,17 @@ body {
     .logo img{
         width: 80px;
         height: 80px;
-       border: 2px solid white;
+        float: right;
+        opacity: 90%;
+       
+       border: 2px solid rgb(255, 136, 0);
        
 }
     .logo a:hover img{
-        width: 82px;
-        height: 82px;
-      
+        opacity: 100%;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-
+        width: 80px;
+        height: 80px;
         border-radius: 120px;
         -webkit-border-radius: 120px;
         -moz-border-radius: 120px;
@@ -1475,7 +1477,7 @@ body {
         color: #f1f1f1;
         text-shadow: 0 0 12px #af0000, 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
-        font-size: 17px;
+   
       }
       
       /* Position and style the close button (top right corner) */
