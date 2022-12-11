@@ -287,23 +287,21 @@ nav{
         width: 80px;
         height: 80px;
         align-self: left;
-        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-        border-radius: 95px;
-        -webkit-border-radius: 95px;
-        -moz-border-radius: 95px;
-        -ms-border-radius: 95px;
-        -o-border-radius: 95px;
+        border: 1px solid white;
+        border-radius: 50px;
+        margin-left: -15px;
+        opacity: 85%;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
 }
     .logo a:hover img{
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
+        opacity: 100%;
         margin-left: -15px;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-        border-radius: 120px;
-        -webkit-border-radius: 120px;
-        -moz-border-radius: 120px;
-        -ms-border-radius: 120px;
-        -o-border-radius: 120px;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
     }
     .nav-links{
@@ -322,7 +320,7 @@ nav{
         font-size: 10px;
     }
     .nav-links ul li a:hover{
-        font-size: 12px;
+        font-size: 10px;
         text-shadow: 0 0 6px #FF0000, 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
         margin-top: -2px;
@@ -340,16 +338,16 @@ nav{
         
         width : 340px;
         height : 200px;
+        margin-top: -60px;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
     .player2 .head{
         font-size: 25px;
-        height: 100px;
         text-align: center;
         margin-left: auto;
-        margin-top: auto;
+        margin-top: 15px;
         color: aliceblue;
         font-family: 'Times New Roman', Times, serif;
         align-self: center;
@@ -384,7 +382,7 @@ nav{
 
         color: rgb(177, 177, 177);  
         display: flex;
-        margin-left: 100px;  
+        margin-left: 150px;  
         height: 5vh;
     }
     .footer .copyright:link{
@@ -485,7 +483,7 @@ nav{
    
 }
 .social .icon:hover .tooltip{
-    top: -70px;
+    top: -15px;
     opacity: 1;
     pointer-events: auto;
 }

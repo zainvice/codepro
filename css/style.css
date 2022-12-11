@@ -287,7 +287,6 @@ body {
         
     }
     .nav-links ul li a:hover{
-        font-size: 19px;
         text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
         margin-top: -2px;
@@ -380,7 +379,7 @@ body {
         margin-top: 40px;
         margin-bottom: 0px;
         width:auto;
-        height: 61vh;
+        height: 55vh;
         border: 5px solid rgb(255, 136, 0);
             padding: 20px;   
       
@@ -1355,6 +1354,7 @@ body {
    color: #f1f1f1;
    border: 1px solid white;
    border-radius: 3em;
+   
 }
 .links .img p:hover{
     background-color: white;
@@ -1411,25 +1411,20 @@ body {
     }
     .logo{
         flex-basis: 20%;
-        margin-left: 200px;
         margin-top: 0px;
     }
     .logo img{
         width: 80px;
         height: 80px;
-        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-        border-radius: 95px;
-        -webkit-border-radius: 95px;
-        -moz-border-radius: 95px;
-        -ms-border-radius: 95px;
-        -o-border-radius: 95px;
-        margin-left: -200px;
+       border: 2px solid white;
+       
 }
     .logo a:hover img{
         width: 82px;
         height: 82px;
       
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+
         border-radius: 120px;
         -webkit-border-radius: 120px;
         -moz-border-radius: 120px;
@@ -1747,7 +1742,7 @@ body {
    
 }
 .social .icon:hover .tooltip{
-    top: -70px;
+    top: -15px;
     opacity: 1;
     pointer-events: auto;
 }
@@ -1897,6 +1892,7 @@ body {
 }
  .links{
     text-align: center;
+    margin-top: 15px;
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
