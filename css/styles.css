@@ -456,17 +456,17 @@ body{
     
     }
     .logo img{
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         opacity: 80%;
         align-self: left;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border: 1px solid white;
-        border-radius: 3em;
-        -webkit-border-radius: 3em;
-        -moz-border-radius: 3em;
-        -ms-border-radius: 3em;
-        -o-border-radius: 3em;
+        border-radius: 8em;
+        -webkit-border-radius: 8em;
+        -moz-border-radius: 8em;
+        -ms-border-radius: 8em;
+        -o-border-radius: 8em;
 }
     .logo a:hover img{
         opacity: 100%;
