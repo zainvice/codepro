@@ -460,6 +460,7 @@ body{
         height: 80px;
         opacity: 80%;
         align-self: left;
+        margin-left: -15px;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border: 1px solid white;
         border-radius: 8em;
