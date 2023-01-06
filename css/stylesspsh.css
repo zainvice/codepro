@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+body {
+  font-family:'Times New Roman', Times, serif, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0000FF;
+  border: 3px solid rgb(0, 124, 196);
+}
+.mob-tab{
+  display: none;
+}
+.logo{
+  flex-basis: 20%;
+  float: left;
+  margin-top: -10px;
+  margin-left: -15px;
+}
+.logo img{
+  width: 105px;
+  height: 105px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+  border: 4px solid rgb(26, 1, 168);
+  border-radius: 120px;
+  -webkit-border-radius: 120px;
+  -moz-border-radius: 120px;
+  -ms-border-radius: 120px;
+  -o-border-radius: 120px;
+  opacity: 90%;
+
+}
+.logo a:hover img{
+  width: 105px;
+  height: 105px;
+  opacity: 100%;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  -o-border-radius: 80px;
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.bg-tab {
+ 
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  margin-top: 30px;
+}
+
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  
+}
+.nav-links ul li a:hover{
+  text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+  margin-top: -2px;
+}
+.main-text {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 420px;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+}
+
+.static-text {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: 0 0 12px #ff2600, 0 0 5px #0000FF;
+  transform: translate(-50%, -50%);
+}
+
+.dynamic-text {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: 0 0 12px #15ff00, 0 0 5px #0000FF;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.dynamic-text li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.icon-container {
+  width: auto;
+  height: 40vh;
+  margin-top: -25px;
+  background-color: #0000FF;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-top: 2px solid rgb(0, 0, 158);
+}
+.icon-container p{
+  margin-left: -5px;
+  color: wheat;
+}
+.tests {
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: #0000FF;
+  font-size: 25px;
+  color: #fff;
+}
+.icon-container .pspace {
+  background-color: #0000FF;
+   height: 15vh;
+   margin-top: 50px;
+
+}
+.icon-container .pspace .ser a:hover{
+  cursor: pointer;
+  text-shadow: 0 0 12px #15ff00, 0 0 5px #0000FF;
+   
+}
+.icon-container .pspace a{
+  
+  font-size: 25px;
+  color: #fff;
+}
+
+.tests .test {
+
+  display: inline-flex;
+  border: 2px solid black;
+  margin-left: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+
+}
+
+.tests .test a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+.tests .test a:hover{
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 50px;
+  text-shadow: 0 0 12px rgb(60, 255, 0), 0 0 5px rgb(255, 255, 255);
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+.options{
+  background-color: #0000FF;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.options section{
+  margin-top: 35px;
+}
+.bgdep{
+  position: relative;
+  background-color: #0000FF;
+  font-family: 'Times New Roman', Times, serif;
+  width: auto;
+  height: auto;
+}
+.bgdep .btn {
+  background-color: blue;
+  margin-top: 60px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.bgdep .btn:hover {
+  background-color: darkblue;
+}
+
+.bgdep img{
+  z-index: 0;
+  width: 850px;
+  height: 1080px;
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  border-radius: 5em;
+  -webkit-border-radius: 5em;
+  -moz-border-radius: 5em;
+  -ms-border-radius: 5em;
+  -o-border-radius: 5em;
+}
+.bgdep form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+  
+}
+.bgdep h2{
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 30px;
+  text-shadow: 0 0 12px gold, 0 0 5px red;
+}
+.bgdep .info{
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 20px;
+  color: white;
+}
+.bgdep form p{
+
+  margin-top: 15px;
+}
+.footer{
+    
+  background-color:  rgb(0, 2, 133);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+
+}
+.footer-copy{
+  height: 5vh;
+  margin: auto;
+  text-align: center;
+}
+.footer-copy span{
+  height: 5vh;
+  margin: auto;
+  text-align: center;
+}
+.footer .copyright{
+
+  color: rgb(177, 177, 177);  
+ 
+ 
+}
+.footer .copyright:link{
+
+  text-decoration: none;  
+  margin-top: 0px;    
+  font-size: 15px;
+}
+.footer .copyright:hover{
+ 
+   color: rgb(236, 236, 236);
+ 
+}
+.footer .social{
+
+  display: inline-flex;
+  height: 15vh;
+  width: auto;
+}
+.social .icon{
+  margin :0 20px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon span{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+ 
+}
+.social .icon span iconify-icon{
+  font-size: 25px;
+  margin-top: 12px;
+  background-color: transparent;
+  color: black; 
+}
+.social .icon .upwork iconify-icon{
+  margin-top: 14px;
+}
+.social .icon:hover .upwork iconify-icon{
+  margin-top: 14px;
+}
+
+.social .icon:hover span iconify-icon{
+  font-size: 25px;
+  margin-top: 12px;
+  background-color: transparent;
+  color: rgb(255, 255, 255); 
+}
+.social .icon span i{
+  font-size: 25px;
+  margin-top: 12px;
+  background-color: transparent;
+
+}
+.social .icon:hover span {
+  color: #fff;
+}
+.social .icon .tooltip{
+  position: absolute;
+  top: 0px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 18px;
+  border-radius: 25px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+ 
+}
+.social .icon:hover .tooltip{
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.social .icon .tooltip:before{
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) rotate(45deg);
+  -o-transform: translateX(-50%) rotate(45deg);
+  transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+.social .icon:hover span,
+.social .icon:hover .tooltip{
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
+}
+.social .facebook:hover span,
+.social .facebook:hover .tooltip,
+.social .facebook:hover .tooltip:before{
+
+  background-color: rgb(0, 202, 0);
+}
+.social .twitter:hover span,
+.social .twitter:hover .tooltip,
+.social .twitter:hover .tooltip:before{
+
+  background-color: rgb(0, 153, 255);
+}
+.social .instagram:hover span,
+.social .instagram:hover .tooltip,
+.social .instagram:hover .tooltip:before{
+
+  background-color: rgb(255, 0, 76);
+}
+.social .github:hover span,
+.social .github:hover .tooltip,
+.social .github:hover .tooltip:before{
+
+  background-color: rgb(0, 0, 0);
+}
+.social .tiktok:hover span,
+.social .tiktok:hover .tooltip,
+.social .tiktok:hover .tooltip:before{
+
+  background-color: rgb(43, 1, 1);
+}

@@ -86,6 +86,12 @@ nav{
     font-family: 'Times New Roman', Times, serif;
     height: 10vh;
 }
+.name a{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: #fff;
+}
 .name:hover{
     cursor: pointer;
     font-size: 30px;
