@@ -120,10 +120,10 @@ body {
 
 .static-text {
   color: #fff;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   text-shadow: 0 0 12px #ff2600, 0 0 5px #0000FF;
   transform: translate(-50%, -50%);
@@ -131,7 +131,7 @@ body {
 
 .dynamic-text {
   color: #fff;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   position: absolute;
   top: 50%;
