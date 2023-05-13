@@ -8,7 +8,7 @@
   }
   
   #toggleStickyBtn.sticky {
-    background-color: #000;
+    /*background-color: #000;*/
     color: #fff;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   }
