@@ -11,7 +11,7 @@ body{
     height: 16vh;
     position: relative;
     overflow: hidden;
-    background: #003866;
+    background: linear-gradient(to bottom , #003866, #121836);
 }
 nav{
     width: 80%;

@@ -291,8 +291,9 @@ body {
         width: 100%;
         height: 16vh;
         overflow: hidden;
-        background: #003866;
-        border-bottom: 2px solid rgb(255, 136, 0);
+        background: linear-gradient(to bottom , #003866, #121836);
+        /*background: #003866;*/
+        /*border-bottom: 2px solid rgb(255, 136, 0);
         /*position: sticky;*/
         top: 0;
         z-index: 1000;
@@ -349,7 +350,7 @@ body {
         list-style: none;
         display: inline-block;
         margin: 0 20px;
-        margin-top: 17px;
+        margin-top: 11px;
     }
     .nav-links ul li a{
         color: white;
