@@ -658,19 +658,20 @@ nav{
     
     }
     .logo img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         align-self: left;
-        margin-left: -15px;
-        border: 1px solid white;
+        margin-left: 0px;
+        border: 2px solid rgb(255, 136, 0);
+
         border-radius: 50px;
         opacity: 85%;
 }
     .logo a:hover img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         opacity: 100%;
-        margin-left: -15px;
+        margin-left: 0px;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         border-radius: 50px;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);

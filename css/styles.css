@@ -456,13 +456,13 @@ body{
     
     }
     .logo img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         opacity: 80%;
         align-self: left;
-        margin-left: -15px;
+        margin-left: 0px;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-        border: 1px solid white;
+        border: 2px solid rgb(255, 136, 0);
         border-radius: 8em;
         -webkit-border-radius: 8em;
         -moz-border-radius: 8em;
@@ -470,6 +470,8 @@ body{
         -o-border-radius: 8em;
 }
     .logo a:hover img{
+        width: 50px;
+        height: 50px;
         opacity: 100%;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
