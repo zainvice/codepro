@@ -10,6 +10,7 @@
     </head>
 <body>
     <div class="main">
+        <button id="toggleStickyBtn" class="toggle-sticky"></button>
         <nav class="mob-tab">
             
             <div id="mySidebar" class="sidebar">
@@ -131,11 +132,41 @@
         <div class="footer-copy">
         <span><a class="copyright" href="https://www.upwork.com/freelancers/~01f57154b8155bc912 "
         target="_blank" >
-        The Pro Coding Guy &copy; Copyright 2022
+        The Pro Coding Guy &copy; Copyright 2022-2023
         </a></span>
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script>
+        const mainSection = document.querySelector('.main');
+        const toggleStickyBtn = document.querySelector('#toggleStickyBtn');
+        
+        toggleStickyBtn.addEventListener('click', () => {
+            if (mainSection.style.position === 'sticky') {
+                mainSection.style.position = '';
+                mainSection.style.backgroundColor = '#003866';
+                toggleStickyBtn.classList.remove('sticky');
+            } else {
+                mainSection.style.position = 'sticky';
+                mainSection.style.backgroundColor = '#003866';
+                toggleStickyBtn.classList.add('sticky');
+            }
+        });
+    </script>const mainSection = document.querySelector('.main');
+    <!---const toggleStickyBtn = document.querySelector('#toggleStickyBtn');
+    
+    toggleStickyBtn.addEventListener('click', () => {
+      if (mainSection.classList.contains('show')) {
+        mainSection.classList.remove('show');
+        toggleStickyBtn.classList.remove('sticky');
+      } else {
+        mainSection.classList.add('show');
+        toggleStickyBtn.classList.add('sticky');
+      }
+    });
+    
+    --->
+    
 </body>
 
 </html>

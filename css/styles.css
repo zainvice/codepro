@@ -33,7 +33,7 @@ nav{
     width: 75px;
     height: 75px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-    border: 5px solid #001d35;
+    border: 3px solid rgb(255, 136, 0);
     border-radius: 120px;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
@@ -353,6 +353,23 @@ body{
     font-size: 50px;
 }
 @media only screen and (min-width:1092px){
+    body::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      body::-webkit-scrollbar-track {
+          background-color: #002849;
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color:  rgb(255, 136, 0);
+        border-radius: 20px;
+        border: 2px solid #003b6b;
+      }
+      
+      body::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
     .footer{
     
         background: #003866;
@@ -437,7 +454,8 @@ body{
         height: auto;
         position: relative;
         overflow: hidden;
-        background: rgb(103, 13, 206);
+        background: #003866;
+
     
     }
     nav{
@@ -505,8 +523,8 @@ body{
         justify-content: center;
         align-items: center;
         height: 20vh;
-        background:rgb(88, 10, 177);
-       
+        background: #003866;
+
     
     }
     .pulse img{
@@ -585,7 +603,8 @@ body{
         height: 10vh;
         justify-content: center;
         align-items: center;
-        background:rgb(88, 10, 177);
+        background: #003866;
+
     }
     .status .text{
         
@@ -594,7 +613,8 @@ body{
         margin-top: 5px;
     }
     .footer{
-        background:rgb(83, 9, 167);
+        background: #003866;
+
         justify-content: center;
          align-items: center;
         text-align: center;

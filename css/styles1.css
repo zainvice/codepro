@@ -285,6 +285,23 @@ nav{
     background-color: rgb(43, 1, 1);
 }
 @media only screen and (min-width:1092px){
+    body::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      body::-webkit-scrollbar-track {
+          background-color: #002849;
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color:  rgb(255, 136, 0);
+        border-radius: 20px;
+        border: 2px solid #003b6b;
+      }
+      
+      body::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
     .logo{
         flex-basis: 20%;
         margin-top: -10px;
@@ -294,7 +311,7 @@ nav{
         width: 75px;
         height: 75px;
         box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-        border: 5px solid #001d35;
+        border: 3px solid  rgb(255, 136, 0);
         border-radius: 120px;
         -webkit-border-radius: 120px;
         -moz-border-radius: 120px;

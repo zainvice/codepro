@@ -35,7 +35,7 @@ nav{
     width: 75px;
     height: 75px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-    border: 5px solid #001d35;
+    border: 3px solid rgb(255, 136, 0);
     border-radius: 120px;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
@@ -558,6 +558,23 @@ nav{
     -o-transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
 }
 @media only screen and (min-width:1092px) {
+    body::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      body::-webkit-scrollbar-track {
+          background-color: #002849;
+      }
+      
+      body::-webkit-scrollbar-thumb {
+        background-color:  rgb(255, 136, 0);
+        border-radius: 20px;
+        border: 2px solid #003b6b;
+      }
+      
+      body::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
     .footer{
     
        
@@ -598,6 +615,60 @@ nav{
     }
 }
 @media (min-width: 793px ) and (max-width:1091px){
+    .main{
+        width: auto;
+    }
+    .intro .welcome a{
+        color: aliceblue;
+        font-size: 40px;
+        text-shadow: 0 0 20px #f85d03, 0 0 5px #e200b1;
+        transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    }
+    .intro img{
+        width: 580px;
+        height: 400px;
+        margin-top: 30px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+        box-shadow: 0 20px 20px rgba(0,0,0,0.7);
+    }
+    .slider{
+        width: 500px;
+        height: 320px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-left: 280px;
+        box-shadow: 0 20px 20px rgba(0,0,0,0.3);
+        
+    }
+    .slides{
+      
+        width: 520%;
+        height: 520px;
+        display: flex;
+        
+       
+    }
+    .slides input{
+        display: none;
+    }
+    .slide{
+        width: 20%;
+        transition: 2s;
+        -webkit-transition: 2s;
+        -moz-transition: 2s;
+        -ms-transition: 2s;
+        -o-transition: 2s;
+    }
+    .slide img{
+        width: 500px;
+        height: 320px;
+    } 
+     
     .footer{
     
        
