@@ -37,6 +37,7 @@ body {
 .emptyspace{
     width: auto;
     height: 5vh;
+
     background: #003866;
 }
 .emptyspace-2{
@@ -825,15 +826,16 @@ body {
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: rgb(46, 46, 46);
+    background: #002849;
+   
 }
 
 .main{
     width: 100%;
-    height: auto;
+    height: 15vh;
     position: relative;
     overflow: hidden;
-    background-color:  rgb(66, 62, 62);
+    background: #003866;
 
 }
 
@@ -855,30 +857,26 @@ body {
 
 .logo{
     flex-basis: 20%;
-    margin-left: 30px;
+    margin-top: -5px;
+    margin-left: 60px;
     float: right;
 }
 .logo img{
-    width: 110px;
-    height: 110px;
+    width: 70px;
+    height: 70px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border: 5px solid #001d35;
     border-radius: 120px;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
-
+    opacity: 80%;
 }
 .logo a:hover img{
-    width: 112px;
-    height: 112px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-    border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-    transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
+    width: 70px;
+    height: 70px;
+    opacity: 100%;
 }
 .nav-links{
     flex: 1;
@@ -911,7 +909,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color:  rgb(66, 62, 62);/* Black*/
+    background: #003866;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -921,7 +919,7 @@ body {
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #d3d3d3;
     display: block;
     transition: 0.3s;
@@ -932,7 +930,7 @@ body {
     color: #f1f1f1;
     text-shadow: 0 0 12px #af0000, 0 0 5px #0000FF;
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
-    font-size: 27px;
+   
   }
   
   /* Position and style the close button (top right corner) */
@@ -946,10 +944,11 @@ body {
   
   /* The button used to open the sidebar */
   .openbtn {
-    font-size: 50px;
+    font-size: 35px;
+    margin-top: -20px;
     /* width:80px; */
     cursor: pointer;
-    background-color:  rgb(66, 62, 62);
+    background: #003866;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -957,7 +956,7 @@ body {
   }
   
   .openbtn:hover {
-    background-color:  rgb(66, 62, 62);
+
     text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
   }
@@ -975,7 +974,7 @@ body {
     font-size: 40px;
     color: white;
     margin-left: 15px;
-    margin-top: 35px;
+    margin-top: 5px;
     white-space: nowrap;
  }
  .main-text:hover {
@@ -983,7 +982,7 @@ body {
     transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
  }
 .wrapper{
-    background: rgb(80, 80, 80);
+    background: #003866;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1070,7 +1069,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: rgb(80, 80, 80);
+    background: #003866;
     border-left: 2px solid rgb(255, 136, 0);
     animation: typing 4s steps(13) infinite;
     -webkit-animation: typing 4s steps(13) infinite;
@@ -1086,16 +1085,16 @@ body {
 .emptyspace{
     width: auto;
     height: 5vh;
-    background-color: rgb(43, 43, 43);
+    background: #00213b;
 }
 .emptyspace-2{
     width: auto;
     height: 5vh;
-    background-color: rgb(43, 43, 43);
+    background: #00213b;
 }
 .footer{
 
-    background-color:  rgb(51, 51, 51);
+    background: #003866;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -1261,8 +1260,16 @@ body {
     background-color: rgb(43, 1, 1);
 }
 /*Experimental*/
+.read .About_me{
+    text-align: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 0 0 0 10px yellow, 0 0 0 5px blue;
+}
 .read-more-state {
     display: none;
+    
   }
   
   .read-more-target {
@@ -1276,44 +1283,36 @@ body {
     opacity: 1;
     font-size: inherit;
     max-height: 999em;
+    
   }
   
   .read-more-state ~ .read-more-trigger:before {
     content: 'Show More';
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
   }
   
   
   .read-more-state:checked ~ .read-more-trigger:before {
     content: 'Show Less';
-    font-size: 25px;
+    font-size: 18px;
+    text-align: center;
   }
   
   .read-more-trigger {
     cursor: pointer;
     display: inline-block;
     padding: 0 .5em;
+    margin-left: 380px;
     color: #666;
-    margin-top: 0px;
-    margin-left: 350px;
-    line-height: 2;
-    border: 0px solid #ddd;
-    height: 10vh;
-    border-radius: .25em;
+    text-align: center;
+    height: 5vh;
   }
   .read-more-trigger:hover {
       cursor: pointer;
       display: inline-block;
       padding: 0 .5em;
       color: rgb(255, 255, 255);
-      height: 10vh;
-      line-height: 2.5;
-      border: 1px solid #ddd;
-      border-radius: 3em;
-      -webkit-border-radius: 3em;
-      -moz-border-radius: 3em;
-      -ms-border-radius: 3em;
-      -o-border-radius: 3em;
   }
   .read-more-wrap{
       text-align: center;
@@ -1321,6 +1320,7 @@ body {
       font-family: 'Times New Roman', Times, serif;
       width: auto;
       height: auto;
+      text-align: center;
       font-size: 25px;
       margin-top: 50px;
       border-top: #FF0000;
@@ -1415,25 +1415,26 @@ body {
         margin: 0%;
         padding: 0%;
         font-size: 18;
-        background: rgb(68, 155, 255);
+        background: #002849;
+    
         width: auto;
         height: auto;
     }
     .main{
         width: 100%;
-        height: 18vh;
+        height: 10vh;
         position: relative;
         overflow: hidden;
-        background-color:  rgb(0, 95, 204);
+        background: #003866;
     
     }
     .logo{
         flex-basis: 20%;
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .logo img{
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
         float: right;
         opacity: 90%;
        
@@ -1463,7 +1464,7 @@ body {
         display: flex;
         width: 80%;
         position: sticky;
-        margin: 20px auto;
+        margin: -10px auto;
         z-index: 1;
     }
     /* The sidebar menu */
@@ -1474,7 +1475,7 @@ body {
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color:  rgb(0, 95, 204);/* Black*/
+        background: #003866;/* Black*/
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -1513,14 +1514,13 @@ body {
       
       /* The button used to open the sidebar */
       .openbtn {
-        font-size: 40px;
-        margin-top: -20px;
-        /* width:80px; */
+        font-size: 20px;
         cursor: pointer;
-        background-color:  rgb(0, 95, 204);
+        background: #003866;
         color: white;
         padding: 15px 15px;
         border: none;
+        margin-top: -2px;
         margin-left: -55px;
       }
       
@@ -1543,7 +1543,7 @@ body {
         font-size: 17px;
         color: white;
         margin-left: -45px;
-        margin-top: 25px;
+        margin-top: 30px;
         white-space: nowrap;
      }
      .main-text:hover {
@@ -1573,7 +1573,7 @@ body {
         margin-top: -2px;
     } 
     .wrapper{
-        background-color:  rgb(0, 64, 138);
+        background: #003866;
         display: flex;
         margin-top: 10px;
         align-items: center;
@@ -1590,7 +1590,7 @@ body {
     }
     .profile img{
         margin-left: -60px;
-        margin-top: 0px;
+        margin-top: -7px;
         width: 150px;
         height: 150px;
     }
@@ -1636,7 +1636,7 @@ body {
         margin-top: 30px;
         height: 100%;
         width: 100%;
-        background-color:  rgb(0, 64, 138);
+        background: #003866;
         border-left: 2px solid rgb(255, 172, 62);
         animation: typing 4s steps(13) infinite;
         -webkit-animation: typing 4s steps(13) infinite;
@@ -1650,12 +1650,12 @@ body {
         }
       }
     .footer{
-        background-color:  rgb(0, 79, 168);
+        background: #003866;
         justify-content: center;
          align-items: center;
         text-align: center;
         width: auto;
-        height: auto;
+      
     
 
     }
@@ -1836,13 +1836,13 @@ body {
   
   .read-more-state ~ .read-more-trigger:before {
     content: 'Show More';
-    font-size: 15px;
+    font-size: 12px;
   }
   
   
   .read-more-state:checked ~ .read-more-trigger:before {
     content: 'Show Less';
-    font-size: 15px;
+    font-size: 12px;
   }
   
   .read-more-trigger {
@@ -1864,28 +1864,35 @@ body {
     
 }
   .emptyspace{
-    background-color:  rgb(0, 106, 228);
+    background: #002849;
   }
   .emptyspace-2{
-    background-color:  rgb(0, 106, 228);
+    background: #002849;
+  }
+  .read .About_me{
+     margin-top: 0px;
+     text-align: center;
+     color: wheat;
+     font-size: 15px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   .read-more-wrap{
       text-align: center;
       color: white;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       width: auto;
-    height: auto;
-      margin-top: 0px;
-      font-size: 15px;
+      height: auto;
+      margin-top: -20px;
+      font-size: 12px;
       border-top: #FF0000;
   }
   
   .read{
     height: auto;
-    background-color:  rgb(0, 44, 138);
+    background: #003866;
   }
   .space{
-    background-color:  rgb(0, 44, 138);
+    background: #003866;
     height: 5vh;
   }
   #link2{
@@ -1915,7 +1922,7 @@ body {
  .links{
     text-align: center;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     height: 15vh;
