@@ -1,9 +1,12 @@
+.icon {
+    border-radius: 50%;
+  }
 body {
     margin: 0%;
     padding: 0%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18;
-    background: rgb(46, 46, 46);
+    background: #002849;
 }
 .logo{
     flex-basis: 20%;
@@ -34,12 +37,12 @@ body {
 .emptyspace{
     width: auto;
     height: 5vh;
-    background-color: rgb(43, 43, 43);
+    background: #003866;
 }
 .emptyspace-2{
     width: auto;
     height: 5vh;
-    background-color: rgb(43, 43, 43);
+    background: #003866;
 }
 .footer{
 
@@ -214,7 +217,7 @@ body {
         padding: 0%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 18;
-        background: rgb(46, 46, 46);
+        background: #002849;
     }
     
     .main{
@@ -222,7 +225,7 @@ body {
         height: 16vh;
         position: relative;
         overflow: hidden;
-        background-color:  rgb(66, 62, 62);
+        background: #003866;
     
     }
     .bg-tab{
@@ -247,8 +250,8 @@ body {
     .logo img{
         width: 75px;
         height: 75px;
-        box-shadow: 0 5px 5px rgba(133, 132, 132, 0.1);
-        border: 3px solid white;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+        border: 5px solid #001d35;
         border-radius: 120px;
         -webkit-border-radius: 120px;
         -moz-border-radius: 120px;
@@ -271,25 +274,24 @@ body {
     .nav-links{
         flex: 1;
         text-align: right;
-        
+    
     }
     .nav-links ul li{
         list-style: none;
         display: inline-block;
         margin: 0 20px;
-    
+        margin-top: 17px;
     }
     .nav-links ul li a{
         color: white;
         text-decoration: none;
-        font-size: 18px;
-        display: inline-flex;
-        
+        font-size: 16px;
     }
     .nav-links ul li a:hover{
-        text-shadow: 0 0 12px #FF0000, 0 0 5px #0000FF;
+        text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
         margin-top: -2px;
+       
     }
     /* The sidebar menu */
     .sidebar {
@@ -371,7 +373,7 @@ body {
         transition: all 0.4s cubic-bezier(0.68, -0.55,0.265,1.55);
      }
     .wrapper{
-        background: rgb(80, 80, 80);
+        background: #003866;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -456,7 +458,7 @@ body {
         left: 0;
         height: 100%;
         width: 100%;
-        background: rgb(80, 80, 80);
+        background: #003866;
         border-left: 2px solid rgb(255, 136, 0);
         animation: typing 4s steps(13) infinite;
         -webkit-animation: typing 4s steps(13) infinite;
@@ -472,12 +474,12 @@ body {
     .emptyspace{
         width: auto;
         height: 5vh;
-        background-color: rgb(43, 43, 43);
+        background: #001e36;
     }
     
     .footer{
     
-        background-color:  rgb(51, 51, 51);
+        background: #003866;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -643,6 +645,15 @@ body {
     
         background-color: rgb(43, 1, 1);
     }
+    .read .About_me{
+          font-size: 30px;
+          text-align: center;
+          color: white;
+          text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
+          font-family:'Times New Roman', Times, serif;
+          width: auto;
+          height: 15px;
+    }
     /*Experimental*/
     .read-more-state {
         display: none;
@@ -663,17 +674,20 @@ body {
         opacity: 1;
         font-size: inherit;
         max-height: 999em;
+        
       }
       
       .read-more-state ~ .read-more-trigger:before {
+
         content: 'Show More';
-        font-size: 25px;
+        
+        font-size: 18px;
       }
       
       
       .read-more-state:checked ~ .read-more-trigger:before {
         content: 'Show Less';
-        font-size: 25px;
+        font-size: 18px;
         
       }
       
@@ -691,7 +705,7 @@ body {
       .read-more-trigger:hover {
           cursor: pointer;
           color: rgb(255, 255, 255);
-          
+          text-shadow: 0 0 12px #17f803, 0 0 5px #e2de00;
       }
       .read-more-wrap{
           text-align: center;
@@ -714,20 +728,20 @@ body {
         margin: 0 auto;
         width: auto;
         height: 40vh;
-        background-color: rgb(46, 46, 46);
+        background: #002b4e;
      }
      .emptyspace-2{
         width: auto;
         height: 5vh;
     
-        background-color: rgb(39, 39, 39);
+        background: #001e36;
 
     }
     .pspace{
         width: auto;
         height: 20vh;
         margin-top: 50px;
-        background-color: rgb(46, 46, 46);
+        background: #002b4e;
         text-align: center;
     }
     .ser a{

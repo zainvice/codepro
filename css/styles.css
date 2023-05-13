@@ -8,10 +8,10 @@
 }
 .main{
     width: 100%;
-    height: auto;
+    height: 16vh;
     position: relative;
     overflow: hidden;
-    background: rgb(103, 13, 206);
+    background: #003866;
 
 }
 nav{
@@ -26,20 +26,20 @@ nav{
 }
 .logo{
     flex-basis: 20%;
-
-
+    margin-top: -10px;
+    margin-left: -15px;
 }
 .logo img{
-    width: 100px;
-    height: 100px;
-    align-self: left;
+    width: 75px;
+    height: 75px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    border: 5px solid #001d35;
     border-radius: 120px;
-    border: 1px solid purple;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
     -ms-border-radius: 120px;
     -o-border-radius: 120px;
+    opacity: 80%;
 
 }
 .logo a:hover img{
@@ -75,14 +75,14 @@ nav{
 }
 body{
 
-    background: rgb(88, 10, 177);
+    background: #002849;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
-    background:rgb(88, 10, 177);
+    background: #002849;
     margin-top: 115px;
 
 }
@@ -159,7 +159,7 @@ body{
     height: 50vh;
     justify-content: center;
     align-items: center;
-    background:rgb(88, 10, 177);
+    background: #002849;
 }
 .status .text{
     
@@ -355,7 +355,7 @@ body{
 @media only screen and (min-width:1092px){
     .footer{
     
-        background:rgb(83, 9, 167);
+        background: #003866;
         justify-content: center;
         align-items: center;
         text-align: center;
