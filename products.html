@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Pro Coding Guy</title>
     <link rel="stylesheet" href="css/styles1.css">
+    <script src="https://cdn.jsdelivr.net/npm/ublock-origin/external/ublock0.js"></script>
     <link rel="icon" href="img/the.png">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
@@ -31,9 +32,7 @@
        
         <div class="player2" class="container tab-pane fade"><br>
           <p class="head">WATCH SPORTS LIVE 24/7</p>
-          <iframe  onload="
-          document.getElementById('iframe').setAttribute('sandbox','disable-forms disable-pointer-lock disable-same-origin disable-scripts allow-top-navigation');
-          " src="https://stream.crichd.vip/update/ptv.php" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="true" allow=" clipboard-write; encrypted-media; picture-in-picture; web-share" id="iframe"></iframe>
+          <iframe onload="blockAds()" src="https://stream.crichd.vip/update/ptv.php" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="true" allow=" clipboard-write; encrypted-media; picture-in-picture; web-share" id="iframe"></iframe>
         </div>
         </div>
        
@@ -80,7 +79,30 @@
             </a></span>
             </div>
     </footer>
-   
+    <script>
+		function blockAds() {
+			var iframe = document.querySelector('iframe');
+			var ublock = new UBlock({
+				scope: iframe.contentWindow,
+				lists: [
+					'https://easylist.to/easylist/easylist.txt',
+					'https://easylist.to/easylist/easyprivacy.txt'
+				]
+			});
+
+			ublock.on('block', function (url) {
+				console.log('Blocked: ' + url);
+			});
+
+			ublock.on('allow', function (url) {
+				console.log('Allowed: ' + url);
+			});
+
+			ublock.run();
+
+			iframe.setAttribute('sandbox', 'disable-forms disable-pointer-lock disable-same-origin disable-scripts allow-top-navigation');
+		}
+	</script>
 </body>
 
 </html>
