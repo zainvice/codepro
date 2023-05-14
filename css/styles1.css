@@ -118,7 +118,7 @@ nav{
 }
 
 .footer{
-    background: #003866;
+    background: linear-gradient(to bottom , #003866, #121836);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -348,6 +348,37 @@ nav{
        
     }
 }
+@media (min-width: 793px) and (max-width:1091px){
+    .tab-content{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        
+    
+    }
+    .player2 iframe {
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+        width : 698px;
+        height : 400px;
+        margin-left: 120px;
+        border: solid 3px black;
+    }
+    .player2 .head{
+        font-size: 30px;
+        height: 100px;
+        margin-left: 300px;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        align-self: center;
+    }
+    .footer{
+        background: linear-gradient(to bottom , #003866, #121836);
+    }
+    
+}
 @media only screen and (max-width:792px){
     .logo{
         flex-basis: 20%;
@@ -430,7 +461,8 @@ nav{
         height: 100vh;
         justify-content: center;
         align-items: center;
-        background: rgb(97, 201, 55);
+        
+        background: #002849;
     }
     .status .text{
         
@@ -440,10 +472,10 @@ nav{
     }
     .status .text:hover{
         font-size: 25px;
-        color: chartreuse;
+        color: rgb(255, 208, 0);
     }
     .footer{
-        background: rgb(53, 104, 51);
+        background: linear-gradient(to bottom , #003866, #121836);
         justify-content: center;
          align-items: center;
         text-align: center;

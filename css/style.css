@@ -1,7 +1,7 @@
 .icon {
     border-radius: 50%;
   }
-  .main.show {
+.main.show {
     height: 0;
     overflow: hidden;
     transition: height 0.5s ease-in-out;
@@ -97,7 +97,6 @@ body {
 }
 .footer{
 
-    background-color:  rgb(51, 51, 51);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -295,6 +294,7 @@ body {
         /*background: #003866;*/
         /*border-bottom: 2px solid rgb(255, 136, 0);
         /*position: sticky;*/
+        transition: height 0.5s ease-in-out;
         top: 0;
         z-index: 1000;
       }
@@ -549,7 +549,7 @@ body {
     
     .footer{
     
-        background: #003866;
+        background: linear-gradient(to bottom , #003866, #121836);
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -906,7 +906,7 @@ body {
     height: 15vh;
     position: relative;
     overflow: hidden;
-    background: #003866;
+    background: linear-gradient(to bottom , #003866, #121836);
 
 }
 
@@ -936,7 +936,7 @@ body {
     width: 70px;
     height: 70px;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
-    border: 5px solid #001d35;
+    border: 3px solid rgb(255, 136, 0);
     border-radius: 120px;
     -webkit-border-radius: 120px;
     -moz-border-radius: 120px;
@@ -1019,7 +1019,7 @@ body {
     margin-top: -20px;
     /* width:80px; */
     cursor: pointer;
-    background: #003866;
+    background: transparent;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -1499,12 +1499,13 @@ body {
         height: 10vh;
         position: relative;
         overflow: hidden;
-        background: #003866;
+        background: linear-gradient(to bottom , #003866, #121836);
     
     }
     .logo{
         flex-basis: 20%;
         margin-top: 20px;
+        margin-left: 20px;
     }
     .logo img{
         width: 50px;
@@ -1589,7 +1590,7 @@ body {
       .openbtn {
         font-size: 20px;
         cursor: pointer;
-        background: #003866;
+        background: transparent;
         color: white;
         padding: 15px 15px;
         border: none;
@@ -1610,6 +1611,7 @@ body {
       
       /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
      .main-text {
+        text-align: center;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         height: 5px;
@@ -1663,7 +1665,7 @@ body {
     }
     .profile img{
         margin-left: -60px;
-        margin-top: -7px;
+        margin-top: 0px;
         width: 150px;
         height: 150px;
     }

@@ -170,7 +170,7 @@ body{
 
 .footer{
 
-    background-color:  rgb(51, 51, 51);
+    background: linear-gradient(to bottom , #003866, #121836);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -372,7 +372,7 @@ body{
       }
     .footer{
     
-        background: #003866;
+        background: linear-gradient(to bottom , #003866, #121836);
         justify-content: center;
         align-items: center;
         text-align: center;

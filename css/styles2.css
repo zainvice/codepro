@@ -347,7 +347,7 @@ nav{
 }
 .footer{
 
-    background-color:  #001d35;
+    background: linear-gradient(to bottom , #003866, #121836);
     justify-content: center;
     align-items: center;
     text-align: center;
