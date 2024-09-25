@@ -1,0 +1,37 @@
+# Contributing to Zane's Portfolio
+
+First off, thank you for considering contributing to my portfolio! 💞 By contributing, you help improve the quality of this project and help others who visit the portfolio to learn and grow.
+
+## Table of Contents
+1. [Code of Conduct](#code-of-conduct)
+2. [How to Contribute](#how-to-contribute)
+3. [Reporting Issues](#reporting-issues)
+4. [Submitting Pull Requests](#submitting-pull-requests)
+5. [Coding Standards](#coding-standards)
+6. [License](#license)
+
+## Code of Conduct
+By participating in this project, you agree to uphold our [Code of Conduct](./CODE_OF_CONDUCT.md). Please be respectful in your communications and constructive with your feedback. 💞
+
+## How to Contribute
+There are several ways to contribute:
+- **Report bugs** by opening issues.
+- **Suggest features** or improvements.
+- **Submit pull requests** with improvements or fixes.
+- **Review code** submitted by others.
+- **Enhance documentation**.
+
+Before contributing, please check existing issues and pull requests to avoid duplication of effort.
+
+## Reporting Issues
+If you encounter a bug or have a feature request, please open an issue. Follow these steps:
+1. Ensure the issue isn't already reported.
+2. Provide a clear, concise description of the problem.
+3. Include relevant logs, screenshots, or error messages (if applicable).
+4. If it's a feature request, explain why it would benefit the project.
+
+## Submitting Pull Requests
+We welcome pull requests! Before submitting one:
+1. **Fork the repository** and create your branch:
+   ```bash
+   git checkout -b feature/my-feature
